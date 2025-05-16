@@ -50,54 +50,47 @@
 					<img class="w-[100px] translate-y-[20px] relative z-[99999]" src="./images/menu/logo.png" alt="">
 				</a>
 			</div>
-			<div>
-				<a href="#">
-					<img class="w-[150px]" src="./images/iconheader/napthe.png" alt="">
-				</a>
+			<div class="flex gap-2 items-center">
+
+				<div>
+					<a href="#">
+						<img class="w-[150px]" src="./images/iconheader/napthe.png" alt="">
+					</a>
+				</div>
+				<div>
+					<a href="#">
+						<img class="w-[150px]" src="./images/iconheader/taigame.png" alt="">
+					</a>
+				</div>
+				<div>
+					<a href="#">
+						<img class="w-[60px]" src="./images/iconheader/home.png" alt="">
+					</a>
+				</div>
+				<div>
+					<a href="#">
+						<img class="w-[60px]" src="./images/iconheader/fb.png" alt="">
+					</a>
+				</div>
+				<button class="mobile-toggle">
+					<svg fill="#fff" width="40px" height="40px" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"><path d="M.5 7.42h15v1.25H.5zm0 3.6h15v1.25H.5zm0-7.29h15v1.25H.5z"/></svg>
+				</button>
 			</div>
-			<div>
-				<a href="#">
-					<img class="w-[150px]" src="./images/iconheader/taigame.png" alt="">
-				</a>
-			</div>
-			<div>
-				<a href="#">
-					<img class="w-[60px]" src="./images/iconheader/home.png" alt="">
-				</a>
-			</div>
-			<div>
-				<a href="#">
-					<img class="w-[60px]" src="./images/iconheader/fb.png" alt="">
-				</a>
-			</div>
-			<button class="mobile-toggle">
-				<svg fill="#fff" width="40px" height="40px" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"><path d="M.5 7.42h15v1.25H.5zm0 3.6h15v1.25H.5zm0-7.29h15v1.25H.5z"/></svg>
-			</button>
 		</div>
         <ul class="main-menu">
-            <li>
-                <a href="#">TRANH CHỦ</a>
-            </li>
-            <li>
-                <a href="#">TIN TỨC</a>
-            </li>
-            <li>
-                <a href="#">SỰ KIỆN</a>
-            </li>
-            <li>
-                <a href="#">MÔN PHÁI</a>
-            </li>
-            <li>
-                <a href="#">HƯỚNG DẪN</a>
-            </li>
-            <li>
-                <a href="#">CỘNG ĐỒNG</a>
-                <ul class="dropdown">
-                    <li><a href="#">FANPAGE</a></li>
-                    <li><a href="#">ZALO</a></li>
-                </ul>
-            </li>
-        </ul>
+			<li><a href="/">TRANG CHỦ</a></li>
+			<li><a href="/tin-tuc">TIN TỨC</a></li>
+			<li><a href="/su-kien">SỰ KIỆN</a></li>
+			<li><a href="/mon-phai">MÔN PHÁI</a></li>
+			<li><a href="/huong-dan">HƯỚNG DẪN</a></li>
+			<li>
+				<a href="#">CỘNG ĐỒNG</a>
+				<ul class="dropdown">
+					<li><a href="/fanpage">FANPAGE</a></li>
+					<li><a href="/zalo">ZALO</a></li>
+				</ul>
+			</li>
+		</ul>
     </div>
 
 
@@ -129,19 +122,19 @@
 			</div>
 		</div>
 	</div>
-	<div class="pt-12 lg:pt-0">
-		<img class="hidden md:block" src="./images/banner.png" alt="">
-		<img class="md:hidden" src="./images/banner-mb.png" alt="">
+	<div class="pt-12 w-full">
+		<img class="hidden md:block  w-full" src="./images/banner.png" alt="">
+		<img class="md:hidden  w-full" src="./images/banner-mb.png" alt="">
 	</div>
-	<div class="-mt-40 relative">
+	<div class="xl:-mt-40 relative">
 		<div class="absolute top-[20%] left-0 w-full h-full"> 
 			<img src="./images/BG_center.png" alt="">
 		</div>
-		<div class="xl:max-w-[1440px] mx-auto lg:mb-14 lg:flex xl:flex-row flex-col px-2 relative ">
-			<div class="absolute top-0 left-6 w-full h-full scale-[115%] z-[0] hidden md:block">
+		<div class="lg:max-w-[900px] xl:max-w-[1200px] mx-auto lg:mb-14 lg:flex lg:flex-row flex-col px-2 relative lg:gap-3">
+			<div class="absolute top-0 left-6 w-full h-full xl:scale-[115%] z-[0] hidden xl:block">
 				<img src="./images/section1/bg_section1.png" alt="">
 			</div>
-			<div class="box1-left w-[90%] xl:w-[45%] flex flex-col gap-2.5 mx-auto relative z-10">
+			<div class="box1-left w-[95%] md:w-[80%] xl:w-[45%] flex flex-col gap-2.5 mx-auto relative z-10">
 				<div class="box-left1 flex gap-2.5 items-center">
 					<div class="box-left1_dl">
 						<a href="http://" class="btn" target="_blank" rel="noopener noreferrer"><img
@@ -191,24 +184,24 @@
 					</div>
 				</div>
 			</div>
-			<div class="box1-right w-[90%] xl:w-[55%] bg-bg2 pt-24 mx-auto bg-no-repeat relative z-10">
+			<div class="box1-right w-[95%] md:w-[80%] xl:w-[55%] bg-bg2 pt-24 mx-auto bg-no-repeat relative z-10">
 				
 				<div class="w-full">
-					<div class="flex bg-bgMenu bg-cover bg-no-repeat justify-between py-3 lg:py-0">
+					<div class="flex bg-bgMenu bg-cover bg-no-repeat justify-between py-2 lg:py-0">
 						<button
-							class="w-[20%] tab-btn sm:px-4 sm:py-2 text-white font-bold focus:outline-none bg-bgNameMenu bg-contain bg-no-repeat bg-center text-[13px] lg:text-[16px] xl:text-[20px]"
+							class="w-[20%] tab-btn sm:px-4 sm:py-2 text-white font-bold focus:outline-none bg-bgNameMenu bg-contain bg-no-repeat bg-center text-[13px] lg:text-[10px] xl:text-[16px]"
 							data-tab="tab1">Tất cả</button>
 						<button
-							class="w-[20%] tab-btn sm:px-4 sm:py-2 text-yellow-500 font-bold hover:text-yellow-600 text-[13px] lg:text-[16px] xl:text-[20px] focus:outline-none"
+							class="w-[20%] tab-btn sm:px-4 sm:py-2 text-yellow-500 font-bold hover:text-yellow-600 text-[13px] lg:text-[10px] xl:text-[16px] focus:outline-none"
 							data-tab="tab2">Thông báo</button>
 						<button
-							class="w-[20%] tab-btn sm:px-4 sm:py-2 text-yellow-500 font-bold hover:text-yellow-600 text-[13px] lg:text-[16px] xl:text-[20px] focus:outline-none"
+							class="w-[20%] tab-btn sm:px-4 sm:py-2 text-yellow-500 font-bold hover:text-yellow-600 text-[13px] lg:text-[10px] xl:text-[16px] focus:outline-none"
 							data-tab="tab3">Sự Kiện</button>
 						<button
-							class="w-[20%] tab-btn sm:px-4 sm:py-2 text-yellow-500 font-bold hover:text-yellow-600 text-[13px] lg:text-[16px] xl:text-[20px] focus:outline-none"
+							class="w-[20%] tab-btn sm:px-4 sm:py-2 text-yellow-500 font-bold hover:text-yellow-600 text-[13px] lg:text-[10px] xl:text-[16px] focus:outline-none"
 							data-tab="tab3">Tính Năng</button>
 						<button
-							class="w-[20%] tab-btn sm:px-4 sm:py-2 text-yellow-500 font-bold hover:text-yellow-600 text-[13px] lg:text-[16px] xl:text-[20px] focus:outline-none "
+							class="w-[20%] tab-btn sm:px-4 sm:py-2 text-yellow-500 font-bold hover:text-yellow-600 text-[13px] lg:text-[10px] xl:text-[16px]focus:outline-none "
 							data-tab="tab3">Hướng Dẫn</button>
 					</div>
 	
@@ -217,144 +210,33 @@
 						<div class="flex flex-col gap-3 lg:block">
 							<div class="flex gap-2">
 								<div class="w-[30%]">
-									<a href="#"><img class="lg:h-40" src="./images/section1/thumbnai.png" alt=""></a>
+									<a href="#"><img class="lg:h-28" src="./images/section1/thumbnai.png" alt=""></a>
 								</div>
 								<div class="w-[70%]">
 									<div class="leading-none">
 										<a href="#">
 											<div
-												class="inline-block py-1 px-2 bg-bgNameCate bg-contain bg-center bg-no-repeat text-[15px] lg:text-[20px] w-24 text-center text-white font-bold">
+												class="inline-block py-1 px-2 bg-bgNameCate bg-contain bg-center bg-no-repeat text-[15px] lg:text-[18px] w-24 text-center text-white font-bold">
 												Sự Kiện
 											</div>
 										</a>
 										<a href="#">
-											<div class="inline text-[11px] lg:text-[23px] font-bold capitalize">
+											<div class="inline text-[11px] lg:text-[14px] xl:text-[20px] font-bold capitalize">
 												Sự kiện vòng quay may mắn tháng 4 | Kiếm thiên mobile
 											</div>
 										</a>
 									</div>
-									<div class="text-blog font-semibold text-[10px] lg:text-[14px]">
+									<div class="text-blog font-semibold text-[10px] lg:text-[12px] xl:text-[14px] leading-tight">
 										Muôi xinh đẹp xin gửi đến các quý anh hùng thông tin về sự kiện vòng quay may mắn
 										tháng 4, với rất nhiều sự lưa chọn và phần thưởng hấp dẫn
 									</div>
 									<div class="text-right mt-2">
 										<span
-											class="text-center text-white bg-bgDate inline-block w-24 lg:w-32 bg-no-repeat bg-cover py-1.5 font-bold text-[12px] lg:text-[15px]">10-5-2025</span>
+											class="text-center text-white bg-bgDate inline-block w-24 lg:w-32 bg-no-repeat bg-cover py-1.5 font-bold text-[12px] lg:text-[14px]">10-5-2025</span>
 									</div>
 								</div>
 							</div>
-							<div class="flex gap-2">
-								<div class="w-[30%]">
-									<a href="#"><img class="lg:h-40" src="./images/section1/thumbnai.png" alt=""></a>
-								</div>
-								<div class="w-[70%]">
-									<div class="leading-none">
-										<a href="#">
-											<div
-												class="inline-block py-1 px-2 bg-bgNameCate bg-contain bg-center bg-no-repeat text-[15px] lg:text-[20px] w-24 text-center text-white font-bold">
-												Sự Kiện
-											</div>
-										</a>
-										<a href="#">
-											<div class="inline text-[11px] lg:text-[23px] font-bold capitalize">
-												Sự kiện vòng quay may mắn tháng 4 | Kiếm thiên mobile
-											</div>
-										</a>
-									</div>
-									<div class="text-blog font-semibold text-[10px] lg:text-[14px]">
-										Muôi xinh đẹp xin gửi đến các quý anh hùng thông tin về sự kiện vòng quay may mắn
-										tháng 4, với rất nhiều sự lưa chọn và phần thưởng hấp dẫn
-									</div>
-									<div class="text-right mt-2">
-										<span
-											class="text-center text-white bg-bgDate inline-block w-24 lg:w-32 bg-no-repeat bg-cover py-1.5 font-bold text-[12px] lg:text-[15px]">10-5-2025</span>
-									</div>
-								</div>
-							</div>
-							<div class="flex gap-2">
-								<div class="w-[30%]">
-									<a href="#"><img class="lg:h-40" src="./images/section1/thumbnai.png" alt=""></a>
-								</div>
-								<div class="w-[70%]">
-									<div class="leading-none">
-										<a href="#">
-											<div
-												class="inline-block py-1 px-2 bg-bgNameCate bg-contain bg-center bg-no-repeat text-[15px] lg:text-[20px] w-24 text-center text-white font-bold">
-												Sự Kiện
-											</div>
-										</a>
-										<a href="#">
-											<div class="inline text-[11px] lg:text-[23px] font-bold capitalize">
-												Sự kiện vòng quay may mắn tháng 4 | Kiếm thiên mobile
-											</div>
-										</a>
-									</div>
-									<div class="text-blog font-semibold text-[10px] lg:text-[14px]">
-										Muôi xinh đẹp xin gửi đến các quý anh hùng thông tin về sự kiện vòng quay may mắn
-										tháng 4, với rất nhiều sự lưa chọn và phần thưởng hấp dẫn
-									</div>
-									<div class="text-right mt-2">
-										<span
-											class="text-center text-white bg-bgDate inline-block w-24 lg:w-32 bg-no-repeat bg-cover py-1.5 font-bold text-[12px] lg:text-[15px]">10-5-2025</span>
-									</div>
-								</div>
-							</div>
-							<div class="flex gap-2">
-								<div class="w-[30%]">
-									<a href="#"><img class="lg:h-40" src="./images/section1/thumbnai.png" alt=""></a>
-								</div>
-								<div class="w-[70%]">
-									<div class="leading-none">
-										<a href="#">
-											<div
-												class="inline-block py-1 px-2 bg-bgNameCate bg-contain bg-center bg-no-repeat text-[15px] lg:text-[20px] w-24 text-center text-white font-bold">
-												Sự Kiện
-											</div>
-										</a>
-										<a href="#">
-											<div class="inline text-[11px] lg:text-[23px] font-bold capitalize">
-												Sự kiện vòng quay may mắn tháng 4 | Kiếm thiên mobile
-											</div>
-										</a>
-									</div>
-									<div class="text-blog font-semibold text-[10px] lg:text-[14px]">
-										Muôi xinh đẹp xin gửi đến các quý anh hùng thông tin về sự kiện vòng quay may mắn
-										tháng 4, với rất nhiều sự lưa chọn và phần thưởng hấp dẫn
-									</div>
-									<div class="text-right mt-2">
-										<span
-											class="text-center text-white bg-bgDate inline-block w-24 lg:w-32 bg-no-repeat bg-cover py-1.5 font-bold text-[12px] lg:text-[15px]">10-5-2025</span>
-									</div>
-								</div>
-							</div>
-							<div class="flex gap-2">
-								<div class="w-[30%]">
-									<a href="#"><img class="lg:h-40" src="./images/section1/thumbnai.png" alt=""></a>
-								</div>
-								<div class="w-[70%]">
-									<div class="leading-none">
-										<a href="#">
-											<div
-												class="inline-block py-1 px-2 bg-bgNameCate bg-contain bg-center bg-no-repeat text-[15px] lg:text-[20px] w-24 text-center text-white font-bold">
-												Sự Kiện
-											</div>
-										</a>
-										<a href="#">
-											<div class="inline text-[11px] lg:text-[23px] font-bold capitalize">
-												Sự kiện vòng quay may mắn tháng 4 | Kiếm thiên mobile
-											</div>
-										</a>
-									</div>
-									<div class="text-blog font-semibold text-[10px] lg:text-[14px]">
-										Muôi xinh đẹp xin gửi đến các quý anh hùng thông tin về sự kiện vòng quay may mắn
-										tháng 4, với rất nhiều sự lưa chọn và phần thưởng hấp dẫn
-									</div>
-									<div class="text-right mt-2">
-										<span
-											class="text-center text-white bg-bgDate inline-block w-24 lg:w-32 bg-no-repeat bg-cover py-1.5 font-bold text-[12px] lg:text-[15px]">10-5-2025</span>
-									</div>
-								</div>
-							</div>
+							
 						</div>
 						<div class="text-right">
 							<a href="#"
@@ -508,9 +390,24 @@
 
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/8.4.5/swiper-bundle.min.js"></script>
-
+	<script>
+		document.addEventListener("DOMContentLoaded", function () {
+		  const currentPath = window.location.pathname;
+		  const menuLinks = document.querySelectorAll(".main-menu a");
+	  
+		  menuLinks.forEach(link => {
+			const linkPath = link.getAttribute("href");
+	  
+			if (linkPath !== "#" && currentPath.startsWith(linkPath)) {
+			  const li = link.closest("li");
+			  if (li) li.classList.add("activeMenu");
+			}
+		  });
+		});
+	  </script>
 	<script src="./js/script.js"></script>
-
+	
+	  
 
 </body>
 
