@@ -1,0 +1,758 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<link rel="icon" href="./images/logo.png" type="image/x-icon" />
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+		rel="stylesheet">
+	<script src="https://cdn.tailwindcss.com"></script>
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css">
+	<link rel="stylesheet" href="./css/style.css" />
+	<script>
+		tailwind.config = {
+			theme: {
+				extend: {
+					colors: {
+						primary: '#1DA1F2',
+					},
+					backgroundImage: {
+						'bg1': "url('./images/section1/bg_section1.png')",
+						'bg2': "url('./images/section1/bg_right_section1.png')",
+						'bgMenu': "url('./images/section1/bg_menu_category.png')",
+						'bgNameMenu': "url('./images/section1/bg_category_active.png')",
+						'bgNameCate': "url('./images/section1/bg_name_category.png')",
+						'bgDate': "url('./images/section1/bg_post_date.png')",
+						'bgRemore': "url('./images/section1/bg_xem_them.png')",
+						'bgFooter': "url('./images/bg_bottom.jpg')",
+					},
+					FontFamily: {
+						'roboto': ['Roboto', 'sans-serif'],
+					}
+				}
+
+			}
+		}
+	</script>
+	<title>Kiếm Thiên</title>
+</head>
+
+<body>
+
+
+	<div class="header">
+		<div class="lg:hidden flex w-full justify-between px-3 items-center gap-2">
+			<div>
+				<a href="#">
+					<img class="w-[100px] translate-y-[20px] relative z-[99999]" src="./images/menu/logo.png" alt="">
+				</a>
+			</div>
+			<div>
+				<a href="#">
+					<img class="w-[150px]" src="./images/iconheader/napthe.png" alt="">
+				</a>
+			</div>
+			<div>
+				<a href="#">
+					<img class="w-[150px]" src="./images/iconheader/taigame.png" alt="">
+				</a>
+			</div>
+			<div>
+				<a href="#">
+					<img class="w-[60px]" src="./images/iconheader/home.png" alt="">
+				</a>
+			</div>
+			<div>
+				<a href="#">
+					<img class="w-[60px]" src="./images/iconheader/fb.png" alt="">
+				</a>
+			</div>
+			<button class="mobile-toggle">
+				<svg fill="#fff" width="40px" height="40px" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"><path d="M.5 7.42h15v1.25H.5zm0 3.6h15v1.25H.5zm0-7.29h15v1.25H.5z"/></svg>
+			</button>
+		</div>
+        <ul class="main-menu">
+            <li>
+                <a href="#">TRANH CHỦ</a>
+            </li>
+            <li>
+                <a href="#">TIN TỨC</a>
+            </li>
+            <li>
+                <a href="#">SỰ KIỆN</a>
+            </li>
+            <li>
+                <a href="#">MÔN PHÁI</a>
+            </li>
+            <li>
+                <a href="#">HƯỚNG DẪN</a>
+            </li>
+            <li>
+                <a href="#">CỘNG ĐỒNG</a>
+                <ul class="dropdown">
+                    <li><a href="#">FANPAGE</a></li>
+                    <li><a href="#">ZALO</a></li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+
+
+	<div class="hidden lg:block">
+		<div class="floating-menu" id="floatingMenu">
+			<div class="menu-toggle" id="menuToggle">
+				<img src="./images/menu/arrow2.png" alt="">
+			</div>
+			<div class="menu-header"></div>
+			<div class="menu-items">
+				<a href="#" class="menu-item">
+					<img src="./images/menu/trangchu.png" alt="">
+				</a>
+				<a href="#" class="menu-item">
+					<img src="./images/menu/fb.png" alt="">
+				</a>
+				<a href="#" class="menu-item">
+					<img src="./images/menu/taiios.png" alt="">
+				</a>
+				<a href="#" class="menu-item">
+					<img src="./images/menu/taiapk.png" alt="">
+				</a>
+				<a href="#" class="menu-item">
+					<img src="./images/menu/taigialap.png" alt="">
+				</a>
+				<a href="#" class="menu-item">
+					<img class="w-16" src="./images/menu/scrolltop.png" alt="">
+				</a>
+			</div>
+		</div>
+	</div>
+	<div>
+		<img class="hidden md:block" src="./images/banner.png" alt="">
+		<img class="md:hidden" src="./images/banner-mb.png" alt="">
+	</div>
+	<div class="-mt-40 relative">
+		<div class="absolute top-[20%] left-0 w-full h-full"> 
+			<img src="./images/BG_center.png" alt="">
+		</div>
+		<div class="xl:max-w-[1440px] mx-auto lg:mb-14 lg:flex xl:flex-row flex-col px-2 relative ">
+			<div class="absolute top-0 left-6 w-full h-full scale-[115%] z-[0] hidden md:block">
+				<img src="./images/section1/bg_section1.png" alt="">
+			</div>
+			<div class="box1-left w-[90%] xl:w-[45%] flex flex-col gap-2.5 mx-auto relative z-10">
+				<div class="box-left1 flex gap-2.5 items-center">
+					<div class="box-left1_dl">
+						<a href="http://" class="btn" target="_blank" rel="noopener noreferrer"><img
+								src="./images/section1/btn_download.png" alt=""></a>
+					</div>
+					<div class="flex gap-2.5 flex-col ">
+						<div>
+							<a href="http://" class="btn" target="_blank" rel="noopener noreferrer"><img
+									src="./images/section1/btn_register.png" alt=""></a>
+						</div>
+						<div>
+							<a href="http://" class="btn" target="_blank" rel="noopener noreferrer"><img
+									src="./images/section1/btn_donate.png" alt=""></a>
+						</div>
+					</div>
+				</div>
+				<div class="text-center bg-[#3e3e3e] font-roboto py-2 uppercase text-white font-bold">
+					Bảo trì hàng ngày 18h00-18h30
+				</div>
+				<div class="swiper swiper1">
+					<div class="swiper-wrapper">
+						<div class="swiper-slide">
+							<img src="./images/section1/slider1.png" alt="Slide 1" />
+						</div>
+						<div class="swiper-slide">
+							<img src="./images/section1/slider2.png" alt="Slide 1" />
+						</div>
+						<div class="swiper-slide">
+							<img src="./images/section1/slider3.png" alt="Slide 1" />
+						</div>
+					</div>
+					<!-- Pagination -->
+					<div class="swiper-pagination"></div>
+				</div>
+				<div class="flex flex-wrap justify-center items-center">
+					<div class="w-[50%] translate-y-[2px]">
+						<a href=""><img src="./images/section1/tanthu.png" alt=""></a>
+					</div>
+					<div class="w-[50%] translate-y-[1px]">
+						<a href=""><img src="./images/section1/tinhnang.png" alt=""></a>
+					</div>
+					<div class="w-[50%]">
+						<a href=""><img src="./images/section1/giftcode.png" alt=""></a>
+					</div>
+					<div class="w-[50%]">
+						<a href=""><img src="./images/section1/fanpage.png" alt=""></a>
+					</div>
+				</div>
+			</div>
+			<div class="box1-right w-[90%] xl:w-[55%] bg-bg2 pt-24 mx-auto bg-no-repeat relative z-10">
+				
+				<div class="w-full">
+					<div class="flex bg-bgMenu bg-cover bg-no-repeat justify-between py-3 lg:py-0">
+						<button
+							class="w-[20%] tab-btn sm:px-4 sm:py-2 text-white font-bold focus:outline-none bg-bgNameMenu bg-contain bg-no-repeat bg-center text-[13px] lg:text-[16px] xl:text-[20px]"
+							data-tab="tab1">Tất cả</button>
+						<button
+							class="w-[20%] tab-btn sm:px-4 sm:py-2 text-yellow-500 font-bold hover:text-yellow-600 text-[13px] lg:text-[16px] xl:text-[20px] focus:outline-none"
+							data-tab="tab2">Thông báo</button>
+						<button
+							class="w-[20%] tab-btn sm:px-4 sm:py-2 text-yellow-500 font-bold hover:text-yellow-600 text-[13px] lg:text-[16px] xl:text-[20px] focus:outline-none"
+							data-tab="tab3">Sự Kiện</button>
+						<button
+							class="w-[20%] tab-btn sm:px-4 sm:py-2 text-yellow-500 font-bold hover:text-yellow-600 text-[13px] lg:text-[16px] xl:text-[20px] focus:outline-none"
+							data-tab="tab3">Tính Năng</button>
+						<button
+							class="w-[20%] tab-btn sm:px-4 sm:py-2 text-yellow-500 font-bold hover:text-yellow-600 text-[13px] lg:text-[16px] xl:text-[20px] focus:outline-none "
+							data-tab="tab3">Hướng Dẫn</button>
+					</div>
+	
+					<!-- Tab Contents -->
+					<div class="tab-content mt-4 p-2 px-5 flex gap-5 flex-col" id="tab1">
+						<div class="flex flex-col gap-3 lg:block">
+							<div class="flex gap-2">
+								<div class="w-[30%]">
+									<a href="#"><img class="lg:h-40" src="./images/section1/thumbnai.png" alt=""></a>
+								</div>
+								<div class="w-[70%]">
+									<div class="leading-none">
+										<a href="#">
+											<div
+												class="inline-block py-1 px-2 bg-bgNameCate bg-contain bg-center bg-no-repeat text-[15px] lg:text-[20px] w-24 text-center text-white font-bold">
+												Sự Kiện
+											</div>
+										</a>
+										<a href="#">
+											<div class="inline text-[11px] lg:text-[23px] font-bold capitalize">
+												Sự kiện vòng quay may mắn tháng 4 | Kiếm thiên mobile
+											</div>
+										</a>
+									</div>
+									<div class="text-blog font-semibold text-[10px] lg:text-[14px]">
+										Muôi xinh đẹp xin gửi đến các quý anh hùng thông tin về sự kiện vòng quay may mắn
+										tháng 4, với rất nhiều sự lưa chọn và phần thưởng hấp dẫn
+									</div>
+									<div class="text-right mt-2">
+										<span
+											class="text-center text-white bg-bgDate inline-block w-24 lg:w-32 bg-no-repeat bg-cover py-1.5 font-bold text-[12px] lg:text-[15px]">10-5-2025</span>
+									</div>
+								</div>
+							</div>
+							<div class="flex gap-2">
+								<div class="w-[30%]">
+									<a href="#"><img class="lg:h-40" src="./images/section1/thumbnai.png" alt=""></a>
+								</div>
+								<div class="w-[70%]">
+									<div class="leading-none">
+										<a href="#">
+											<div
+												class="inline-block py-1 px-2 bg-bgNameCate bg-contain bg-center bg-no-repeat text-[15px] lg:text-[20px] w-24 text-center text-white font-bold">
+												Sự Kiện
+											</div>
+										</a>
+										<a href="#">
+											<div class="inline text-[11px] lg:text-[23px] font-bold capitalize">
+												Sự kiện vòng quay may mắn tháng 4 | Kiếm thiên mobile
+											</div>
+										</a>
+									</div>
+									<div class="text-blog font-semibold text-[10px] lg:text-[14px]">
+										Muôi xinh đẹp xin gửi đến các quý anh hùng thông tin về sự kiện vòng quay may mắn
+										tháng 4, với rất nhiều sự lưa chọn và phần thưởng hấp dẫn
+									</div>
+									<div class="text-right mt-2">
+										<span
+											class="text-center text-white bg-bgDate inline-block w-24 lg:w-32 bg-no-repeat bg-cover py-1.5 font-bold text-[12px] lg:text-[15px]">10-5-2025</span>
+									</div>
+								</div>
+							</div>
+							<div class="flex gap-2">
+								<div class="w-[30%]">
+									<a href="#"><img class="lg:h-40" src="./images/section1/thumbnai.png" alt=""></a>
+								</div>
+								<div class="w-[70%]">
+									<div class="leading-none">
+										<a href="#">
+											<div
+												class="inline-block py-1 px-2 bg-bgNameCate bg-contain bg-center bg-no-repeat text-[15px] lg:text-[20px] w-24 text-center text-white font-bold">
+												Sự Kiện
+											</div>
+										</a>
+										<a href="#">
+											<div class="inline text-[11px] lg:text-[23px] font-bold capitalize">
+												Sự kiện vòng quay may mắn tháng 4 | Kiếm thiên mobile
+											</div>
+										</a>
+									</div>
+									<div class="text-blog font-semibold text-[10px] lg:text-[14px]">
+										Muôi xinh đẹp xin gửi đến các quý anh hùng thông tin về sự kiện vòng quay may mắn
+										tháng 4, với rất nhiều sự lưa chọn và phần thưởng hấp dẫn
+									</div>
+									<div class="text-right mt-2">
+										<span
+											class="text-center text-white bg-bgDate inline-block w-24 lg:w-32 bg-no-repeat bg-cover py-1.5 font-bold text-[12px] lg:text-[15px]">10-5-2025</span>
+									</div>
+								</div>
+							</div>
+							<div class="flex gap-2">
+								<div class="w-[30%]">
+									<a href="#"><img class="lg:h-40" src="./images/section1/thumbnai.png" alt=""></a>
+								</div>
+								<div class="w-[70%]">
+									<div class="leading-none">
+										<a href="#">
+											<div
+												class="inline-block py-1 px-2 bg-bgNameCate bg-contain bg-center bg-no-repeat text-[15px] lg:text-[20px] w-24 text-center text-white font-bold">
+												Sự Kiện
+											</div>
+										</a>
+										<a href="#">
+											<div class="inline text-[11px] lg:text-[23px] font-bold capitalize">
+												Sự kiện vòng quay may mắn tháng 4 | Kiếm thiên mobile
+											</div>
+										</a>
+									</div>
+									<div class="text-blog font-semibold text-[10px] lg:text-[14px]">
+										Muôi xinh đẹp xin gửi đến các quý anh hùng thông tin về sự kiện vòng quay may mắn
+										tháng 4, với rất nhiều sự lưa chọn và phần thưởng hấp dẫn
+									</div>
+									<div class="text-right mt-2">
+										<span
+											class="text-center text-white bg-bgDate inline-block w-24 lg:w-32 bg-no-repeat bg-cover py-1.5 font-bold text-[12px] lg:text-[15px]">10-5-2025</span>
+									</div>
+								</div>
+							</div>
+							<div class="flex gap-2">
+								<div class="w-[30%]">
+									<a href="#"><img class="lg:h-40" src="./images/section1/thumbnai.png" alt=""></a>
+								</div>
+								<div class="w-[70%]">
+									<div class="leading-none">
+										<a href="#">
+											<div
+												class="inline-block py-1 px-2 bg-bgNameCate bg-contain bg-center bg-no-repeat text-[15px] lg:text-[20px] w-24 text-center text-white font-bold">
+												Sự Kiện
+											</div>
+										</a>
+										<a href="#">
+											<div class="inline text-[11px] lg:text-[23px] font-bold capitalize">
+												Sự kiện vòng quay may mắn tháng 4 | Kiếm thiên mobile
+											</div>
+										</a>
+									</div>
+									<div class="text-blog font-semibold text-[10px] lg:text-[14px]">
+										Muôi xinh đẹp xin gửi đến các quý anh hùng thông tin về sự kiện vòng quay may mắn
+										tháng 4, với rất nhiều sự lưa chọn và phần thưởng hấp dẫn
+									</div>
+									<div class="text-right mt-2">
+										<span
+											class="text-center text-white bg-bgDate inline-block w-24 lg:w-32 bg-no-repeat bg-cover py-1.5 font-bold text-[12px] lg:text-[15px]">10-5-2025</span>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="text-right">
+							<a href="#"
+								class="text-center text-white bg-bgRemore inline-block w-32 bg-no-repeat bg-cover py-1.5 font-semibold">
+								Xem thêm
+							</a>
+						</div>
+					</div>
+					<div class="tab-content mt-4 hidden p-2 px-5" id="tab2">
+						
+					</div>
+					<div class="tab-content mt-4 hidden p-2 px-5" id="tab3">
+						<p class="text-gray-700">Nội dung Tab 3: Đây là phần nội dung thứ ba</p>
+					</div>
+					<div class="tab-content mt-4 hidden p-2 px-5" id="tab4">
+						<p class="text-gray-700">Nội dung Tab 2: Đây là phần nội dung thứ tư</p>
+					</div>
+					<div class="tab-content mt-4 hidden p-2 px-5" id="tab5">
+						<p class="text-gray-700">Nội dung Tab 3: Đây là phần nội dung thứ năm</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="box2">
+		<div class="ss2-heading">
+			<img src="./images/section2/tinh_nang_dac_sac.png" alt="">
+		</div>
+		<div class="section2">
+			<div class="swiper swiper2">
+				<div class="swiper-wrapper">
+					<div class="swiper-slide swiper-slide--one"></div>
+					<div class="swiper-slide swiper-slide--two"></div>
+					<div class="swiper-slide swiper-slide--three"></div>
+					<div class="swiper-slide swiper-slide--four"></div>
+					<div class="swiper-slide swiper-slide--five"></div>
+					<!-- Add Pagination -->
+				</div>
+				<div class="dieuhuong">
+					<div class="swiper-button-next">
+						<img src="./images/section2/btn_back.png" alt="">
+					</div>
+					<div class="swiper-pagination"></div>
+					<div class="swiper-button-prev">
+						<img src="./images/section2/btn_next.png" alt="">
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="section3 relative">
+		<div class="ss3-heading">
+			<img src="./images/section3/thapdaimonphai.png" alt="">
+		</div>
+		<div class="relative">
+			<!-- <div class="absolute scale-[1.03] z-50 top-0 left-0 w-full h-full">
+				<img src="./images/border_ss3.png" alt="">
+			</div> -->
+			<div class="slider-container relative">
+				
+				<div class="slide active">
+					<div class="part part1">
+						<img src="./images/section3/text_vo_dang.png" alt="">
+					</div>
+					<div class="part part2">
+						<img src="./images/section3/class_vodang.png" alt="">
+					</div>
+					<div class="part part3">
+						<div class="bg-slide">
+							<img src="./images/section3/bg_char.png" alt="">
+						</div>
+						<div class="bg-video">
+							<video autoplay muted loop>
+								<source src="./images/thieulam_intro.mp4" type="video/mp4">
+							</video>
+						</div>
+					</div>
+				</div>
+				<div class="slide">
+					<div class="part part1">
+						<img src="./images/section3/text_ba_dao.png" alt="">
+					</div>
+					<div class="part part2">
+						<img src="./images/section3/class_badao.png" alt="">
+					</div>
+					<div class="part part3">
+						<div class="bg-slide">
+							<img src="./images/section3/bg_char.png" alt="">
+						</div>
+						<div class="bg-video">
+							<video autoplay muted loop>
+								<source src="./images/thieulam_intro.mp4" type="video/mp4">
+							</video>
+						</div>
+					</div>
+				</div>
+				<div class="slide">
+					<div class="part part1">
+						<img src="./images/section3/text_cai_bang.png" alt="">
+					</div>
+					<div class="part part2">
+						<img src="./images/section3/class_caibang.png" alt="">
+					</div>
+					<div class="part part3">
+						<div class="bg-slide">
+							<img src="./images/section3/bg_char.png" alt="">
+						</div>
+						<div class="bg-video">
+							<video autoplay muted loop>
+								<source src="./images/thieulam_intro.mp4" type="video/mp4">
+							</video>
+						</div>
+					</div>
+				</div>
+				<div class="slide">
+					<div class="part part1">
+						<img src="./images/section3/text_co_mo.png" alt="">
+					</div>
+					<div class="part part2">
+						<img src="./images/section3/class_como.png" alt="">
+					</div>
+					<div class="part part3">
+						<div class="bg-slide">
+							<img src="./images/section3/bg_char.png" alt="">
+						</div>
+						<div class="bg-video">
+							<video autoplay muted loop>
+								<source src="./images/thieulam_intro.mp4" type="video/mp4">
+							</video>
+						</div>
+					</div>
+				</div>
+				<div class="controls">
+					<button class="nav-btn lg:text-[20px] font-black font-roboto text-[#b6a789] leading-tight" data-index="0">Võ <br> Đang</button>
+					<button class="nav-btn lg:text-[20px] font-black font-roboto text-[#b6a789] leading-tight" data-index="1">Bá <br> Đạo</button>
+					<button class="nav-btn lg:text-[20px] font-black font-roboto text-[#b6a789] leading-tight" data-index="2">Thiếu <br> Lâm</button>
+					<button class="nav-btn lg:text-[20px] font-black font-roboto text-[#b6a789] leading-tight" data-index="2">Cổ <br> Mộ</button>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<footer class="text-center py-10 bg-bgFooter bg-cover">
+		<p>CÔNG TY CỔ PHẦN GAME4VN</p>
+		<p>Địa chỉ trụ sở chính: 111 Xã Đàn, Đống Đa, Hà Nội</p>
+		<p>Người chịu trách nhiệm: Nguyễn Văng Minh</p>
+		<p>Copyright 2023 GAME4VN</p>
+	</footer>
+
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/8.4.5/swiper-bundle.min.js"></script>
+
+	<script>
+		document.addEventListener('DOMContentLoaded', function () {
+		  const toggleBtn = document.querySelector('.mobile-toggle');
+		  const mainMenu = document.querySelector('.main-menu');
+		  const menuItems = document.querySelectorAll('.main-menu > li');
+	  
+		  toggleBtn.addEventListener('click', function () {
+			mainMenu.classList.toggle('active');
+		  });
+	  
+		  menuItems.forEach(item => {
+			const dropdown = item.querySelector('.dropdown');
+			const mainLink = item.querySelector('a');
+	  
+			if (dropdown && window.innerWidth <= 768) {
+			  mainLink.addEventListener('click', function (e) {
+				e.preventDefault();
+	  
+				// Đóng các dropdown khác
+				menuItems.forEach(otherItem => {
+				  if (otherItem !== item) {
+					const otherDropdown = otherItem.querySelector('.dropdown');
+					if (otherDropdown) otherDropdown.classList.remove('active');
+				  }
+				});
+	  
+				dropdown.classList.toggle('active');
+			  });
+			}
+		  });
+		});
+	  </script>
+	  
+
+	<!-- MENU SIDEBAR -->
+	<script>
+        let menuManuallyClosed = false;
+        let initialLoadComplete = false;
+        
+        const toggleMenu = () => {
+            const menu = document.getElementById('floatingMenu');
+            
+            if (menu.classList.contains('visible')) {
+                menuManuallyClosed = true;
+                menu.classList.remove('visible');
+            } else {
+                menu.classList.add('visible');
+            }
+        };
+        
+        document.getElementById('menuToggle').addEventListener('click', toggleMenu);
+        
+        window.addEventListener('scroll', () => {
+            const menu = document.getElementById('floatingMenu');
+            
+            if (window.scrollY > 100) {
+                if (!menuManuallyClosed && !initialLoadComplete) {
+                    menu.classList.add('visible');
+                    initialLoadComplete = true;
+                }
+            } else {
+                if (initialLoadComplete && !menuManuallyClosed) {
+                    initialLoadComplete = false;
+                }
+            }
+        });
+    </script>
+	<script>
+		const tabButtons = document.querySelectorAll('.tab-btn');
+		const tabContents = document.querySelectorAll('.tab-content');
+
+		tabButtons.forEach(button => {
+			button.addEventListener('click', () => {
+				tabButtons.forEach(btn => btn.classList.remove('bg-bgNameMenu', 'bg-contain', 'bg-no-repeat', 'bg-center', 'text-white'));
+				tabButtons.forEach(btn => btn.classList.add('text-yellow-500', 'border-transparent'));
+
+				tabContents.forEach(content => content.classList.add('hidden'));
+
+				button.classList.add('bg-bgNameMenu', 'bg-contain', 'bg-no-repeat', 'bg-center', 'text-white');
+				button.classList.remove('text-white', 'border-transparent');
+				document.getElementById(button.getAttribute('data-tab')).classList.remove('hidden');
+			});
+		});
+	</script>
+	<script>
+		var swiper = new Swiper(".swiper1", {
+			slidesPerView: 1,
+			loop: true,
+			// autoplay: {
+			// 	delay: 1000,
+			// 	disableOnInteraction: false
+			// },
+			pagination: {
+				el: ".swiper-pagination",
+				clickable: true,
+			},
+		});
+	</script>
+
+	<script>
+		var swiper = new Swiper(".swiper2", {
+			effect: "coverflow",
+			grabCursor: true,
+			centeredSlides: true,
+			slidesPerView: 1.2,
+			coverflowEffect: {
+				rotate: 0,
+				stretch: 0,
+				depth: 100,
+				modifier: 4,
+				slideShadows: true
+			},
+			// autoplay: {
+			// 	delay: 2500,
+			// 	disableOnInteraction: false
+			// },	
+			keyboard: {
+				enabled: true
+			},
+			// mousewheel: {
+			// 	thresholdDelta: 70
+			// },
+			loop: true,
+			pagination: {
+				el: ".swiper-pagination",
+				clickable: true
+			},
+			navigation: {
+				nextEl: ".swiper-button-next",
+				prevEl: ".swiper-button-prev"
+			},
+			breakpoints: {
+				640: {
+					slidesPerView: 2
+				},
+				768: {
+					slidesPerView: 2
+				},
+				1024: {
+					slidesPerView: 2
+				},
+				1560: {
+					slidesPerView: 2
+				}
+			}
+		});
+	</script>
+	<script>
+		const slides = document.querySelectorAll('.slide');
+		const buttons = document.querySelectorAll('.nav-btn');
+		let currentIndex = 0;
+		let isAnimating = false;
+
+		function setupSlide(slide) {
+			const parts = slide.querySelectorAll('.part');
+			gsap.set(parts, {
+				opacity: 0,
+				x: function (index) {
+					if (index === 0) return -200;
+					if (index === 1) return -200; 
+					if (index === 2) return 200;
+				},
+				y: 0 
+			});
+		}
+
+		// Hàm chạy animation cho từng phần tử trong slide
+		function animateInParts(slide) {
+			const parts = slide.querySelectorAll('.part');
+			const tl = gsap.timeline();
+
+			tl.to(parts[2], {
+				x: 0,
+				opacity: 1,
+				duration: 0.5
+			});
+
+			tl.to(parts[0], {
+				x: 0,
+				opacity: 1,
+				duration: 0.5
+			});
+
+			tl.to(parts[1], {
+				x: 0,
+				opacity: 1,
+				duration: 0.5
+			});
+
+			return tl;
+		}
+
+		function changeSlide(index) {
+			if (index === currentIndex || isAnimating) return;
+
+			isAnimating = true;
+			const currentSlide = slides[currentIndex];
+			const nextSlide = slides[index];
+
+			setupSlide(nextSlide);
+			nextSlide.classList.add('active');
+
+			const masterTimeline = gsap.timeline();
+
+			masterTimeline.to(currentSlide, {
+				opacity: 0,
+				duration: 0.4
+			});
+
+			masterTimeline.to(nextSlide, {
+				opacity: 1,
+				duration: 0.3
+			}).add(() => {
+				// Cho phép bấm tiếp ngay sau khi hiển thị slide mới
+				currentSlide.classList.remove('active');
+				currentIndex = index;
+				isAnimating = false;
+			}, "+=0");
+
+			// Chạy animation của phần tử trong slide song song
+			masterTimeline.add(animateInParts(nextSlide), "-=0.2");
+		}
+
+
+		buttons.forEach(btn => {
+			btn.addEventListener('click', () => {
+				const index = parseInt(btn.getAttribute('data-index'));
+				changeSlide(index);
+
+				buttons.forEach(b => b.classList.remove('active'));
+				btn.classList.add('active');
+			});
+		});
+
+		// Slide đầu tiên khi load
+		window.addEventListener('DOMContentLoaded', () => {
+			setupSlide(slides[0]);
+			animateInParts(slides[0]);
+
+			buttons[0].classList.add('active');
+		});
+	</script>
+
+
+</body>
+
+</html>
