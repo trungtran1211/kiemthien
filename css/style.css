@@ -688,6 +688,11 @@ ul {
     height: 100%;
     object-fit: cover;
 }
+.bg-video img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
 
 .bg-slide img {
     height: 100%;
@@ -731,9 +736,9 @@ ul {
     background: url(../images/section3/icon_class.png) no-repeat center center;
     background-size: cover;
     color: #b6a789;
-    height: 150px;
-    width: 160px;
-    padding-top: 50px;
+    height: 120px;
+    width: 120px;
+    padding-top: 40px;
     margin-left: -40px;
 }
 
@@ -741,9 +746,9 @@ ul {
     background: url(../images/section3/icon_class_active.png) no-repeat center center;
     background-size: cover;
     color: #ffd2bc;
-    height: 150px;
-    width: 150px;
-    padding-top: 50px;
+    height: 120px;
+    width: 120px;
+    padding-top: 40px;
 }
 
 .controls {
@@ -755,8 +760,42 @@ ul {
     display: flex;
     width: 100%;
     justify-content: center;
+    flex-wrap: wrap;
+    margin-left: 30px;
+    font-size: 18px;
 }
-
+@media (max-width: 1024px) {
+    .nav-btn {
+        background: url(../images/section3/icon_class.png) no-repeat center center;
+        background-size: cover;
+        color: #b6a789;
+        height: 80px;
+        width: 80px;
+        padding-top: 40px;
+        margin-left: -28px;
+    }
+    .nav-btn.active {
+        background: url(../images/section3/icon_class_active.png) no-repeat center center;
+        background-size: cover;
+        color: #ffd2bc;
+        height: 80px;
+        width: 80px;
+        padding-top: 30px;
+    }
+    .controls {
+        position: absolute;
+        bottom: 0;
+        left: 50%;
+        transform: translateX(-50%);
+        z-index: 50;
+        display: flex;
+        width: 100%;
+        justify-content: center;
+        flex-wrap: wrap;
+        margin-left: 30px;
+        font-size: 12px;
+    }
+}
 @media (max-width: 768px) {
     .slider-container {
         position: relative;
@@ -784,9 +823,33 @@ ul {
         height: 100px;
         width: 100px;
     }
+    .controls {
+        flex-wrap: nowrap;
+        overflow-x: scroll;
+        margin-left: 0;
+        font-size: 10px;
+    }
 }
 
 @media (max-width: 500px) {
+    .controls {
+        flex-wrap: wrap;
+        overflow-x: scroll;
+        margin-left: 10px;
+        font-size: 10px;
+        letter-spacing: -1px;
+    }
+    .nav-btn.active {
+        height: 60px;
+        width: 70px;
+    }
+    .nav-btn {
+        height: 60px;
+        width: 70px;
+        padding-top: 28px;
+        margin: 0;
+        margin-left: -25px;
+    }
     .ss3-heading img {
         max-width: 300px;
     }
@@ -807,5 +870,15 @@ ul {
         height: 100%;
         overflow: hidden;
         z-index: 1;
+    }
+}
+@media (max-width: 350px) {
+   
+    .nav-btn {
+        height: 60px;
+        width: 60px;
+        padding-top: 28px;
+        margin: 0;
+        margin-left: -25px;
     }
 }
