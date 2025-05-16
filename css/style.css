@@ -69,6 +69,12 @@ ul {
     padding: 20px 0px;
 }
 
+.main-menu li:hover {
+    background: url(../images/bg_nav_item_active.png) no-repeat center center;
+    background-size: cover;
+    cursor: pointer;
+}
+
 .main-menu > li > a {
     display: block;
     color: white;
@@ -340,6 +346,8 @@ ul {
     justify-content: center;
     align-items: center;
     margin-bottom: 20px;
+    position: relative;
+    z-index: 1;
 }
 
 .dieuhuong {
@@ -408,7 +416,7 @@ ul {
 
 .swiper2 .swiper-slide {
     width: 18.75rem;
-    height: 25rem;
+    height: 27rem;
     display: flex;
     flex-direction: column;
     justify-content: end;
@@ -453,7 +461,7 @@ ul {
 }
 
 
-@media screen and (min-width: 93.75rem) {
+@media screen and (min-width: 1440px) {
     .swiper2 {
         width: 85%;
     }
@@ -473,7 +481,7 @@ ul {
 
     .swiper2 .swiper-slide {
         width: 18.75rem;
-        height: 20rem;
+        height: 19rem;
         display: flex;
         flex-direction: column;
         justify-content: end;
@@ -481,8 +489,18 @@ ul {
         position: relative;
     }
 }
-
-@media (max-width: 1440px) {
+@media (max-width: 1024px) {
+    .swiper2 .swiper-slide {
+        width: 18.75rem;
+        height: 17rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: end;
+        align-items: self-start;
+        position: relative;
+    }
+}
+@media (max-width: 768px) {
     .box2 {
         max-width: 1300px;
         margin: 0 auto;
@@ -496,7 +514,7 @@ ul {
 
     .swiper2 .swiper-slide {
         width: 18.75rem;
-        height: 14rem;
+        height: 13rem;
         display: flex;
         flex-direction: column;
         justify-content: end;

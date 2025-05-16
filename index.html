@@ -22,12 +22,14 @@
 					backgroundImage: {
 						'bg1': "url('./images/section1/bg_section1.png')",
 						'bg2': "url('./images/section1/bg_right_section1.png')",
+						'bgSs2': "url('./images/section1/bg_section1.png')",
 						'bgMenu': "url('./images/section1/bg_menu_category.png')",
 						'bgNameMenu': "url('./images/section1/bg_category_active.png')",
 						'bgNameCate': "url('./images/section1/bg_name_category.png')",
 						'bgDate': "url('./images/section1/bg_post_date.png')",
 						'bgRemore': "url('./images/section1/bg_xem_them.png')",
 						'bgFooter': "url('./images/bg_bottom.jpg')",
+						'bgButton': "url('./images/section1/bg_bottom_menu.png')",
 					},
 					FontFamily: {
 						'roboto': ['Roboto', 'sans-serif'],
@@ -122,25 +124,30 @@
 			</div>
 		</div>
 	</div>
-	<div class="pt-12 w-full">
+	<div class="md:pt-24 lg:pt-12 xl:pt-12 w-full relative">
+		<div class="absolute top-24 left-8 md:top-28 md:left-12 lg:top-20 xl:left-20">
+			<a href="#" class="btn">
+				<img class="w-[80px] md:w-[120px] lg:w-[200px] xl:w-auto" src="./images/logo.png" alt="">
+			</a>
+		</div>
 		<img class="hidden md:block  w-full" src="./images/banner.png" alt="">
 		<img class="md:hidden  w-full" src="./images/banner-mb.png" alt="">
 	</div>
-	<div class="xl:-mt-40 relative">
-		<div class="absolute top-[20%] left-0 w-full h-full"> 
+	<div style="background-size: 110% 100%;" class="xl:-mt-40 relative bg-bgSs2 bg-no-repeat xl:bg-none">
+		<div class="absolute top-[20%] left-0 w-full h-full z-[-1]"> 
 			<img src="./images/BG_center.png" alt="">
 		</div>
-		<div class="lg:max-w-[900px] xl:max-w-[1200px] mx-auto lg:mb-14 lg:flex lg:flex-row flex-col px-2 relative lg:gap-3">
+		<div class="lg:max-w-[900px] xl:max-w-[1200px] mx-auto lg:mb-14 lg:flex lg:flex-row flex-col py-2 px-2 relative lg:gap-3">
 			<div class="absolute top-0 left-6 w-full h-full xl:scale-[115%] z-[0] hidden xl:block">
 				<img src="./images/section1/bg_section1.png" alt="">
 			</div>
 			<div class="box1-left w-[95%] md:w-[80%] xl:w-[45%] flex flex-col gap-2.5 mx-auto relative z-10">
-				<div class="box-left1 flex gap-2.5 items-center">
+				<div class="box-left1 flex gap-0.5 items-center">
 					<div class="box-left1_dl">
 						<a href="http://" class="btn" target="_blank" rel="noopener noreferrer"><img
 								src="./images/section1/btn_download.png" alt=""></a>
 					</div>
-					<div class="flex gap-2.5 flex-col ">
+					<div class="flex gap-0.5 flex-col ">
 						<div>
 							<a href="http://" class="btn" target="_blank" rel="noopener noreferrer"><img
 									src="./images/section1/btn_register.png" alt=""></a>
@@ -169,48 +176,68 @@
 					<!-- Pagination -->
 					<div class="swiper-pagination"></div>
 				</div>
-				<div class="flex flex-wrap justify-center items-center">
+				<div style="background-size: 100% 100%;" class="flex flex-wrap justify-center items-center bg-bgButton bg-cover bg-center">
 					<div class="w-[50%] translate-y-[2px]">
-						<a href=""><img src="./images/section1/tanthu.png" alt=""></a>
+						<a href="" class="btn">
+							<div class="flex p-2 justify-center items-center gap-3 text-[16px] md:text-[20px] font-bold text-white hover:text-yellow-500">
+								<img class="w-10 md:w-auto" src="./images//section1/icon_tanthu.png" alt="">
+								<p >Tân Thủ</p>
+							</div>
+						</a>
 					</div>
 					<div class="w-[50%] translate-y-[1px]">
-						<a href=""><img src="./images/section1/tinhnang.png" alt=""></a>
+						<a href="" class="btn">
+							<div class="flex p-2 justify-center items-center gap-3 text-[16px] md:text-[20px] font-bold text-white hover:text-yellow-500">
+								<img class="w-10 md:w-auto" src="./images//section1/icon_tinh_nang.png" alt="">
+								<p>Tính năng</p>
+							</div>
+						</a>
 					</div>
 					<div class="w-[50%]">
-						<a href=""><img src="./images/section1/giftcode.png" alt=""></a>
+						<a href="" class="btn">
+							<div class="flex p-2 justify-center items-center gap-3 text-[16px] md:text-[20px] font-bold text-white hover:text-yellow-500">
+								<img class="w-10 md:w-auto" src="./images//section1/icon_gift.png" alt="">
+								<p>GiftCode</p>
+							</div>
+						</a>
 					</div>
 					<div class="w-[50%]">
-						<a href=""><img src="./images/section1/fanpage.png" alt=""></a>
+						<a href="" class="btn">
+							<div class="flex p-2 justify-center items-center gap-3 text-[16px] md:text-[20px] font-bold text-white hover:text-yellow-500">
+								<img class="w-10 md:w-auto" src="./images//section1/icon_fanpage.png" alt="">
+								<p>Fanpage</p>
+							</div>
+						</a>
 					</div>
 				</div>
 			</div>
-			<div class="box1-right w-[95%] md:w-[80%] xl:w-[55%] bg-bg2 pt-24 mx-auto bg-no-repeat relative z-10">
+			<div class="box1-right w-[95%] md:w-[80%] xl:w-[55%] bg-bg2 pt-24 mx-auto bg-no-repeat relative z-10 lg:-mt-1">
 				
 				<div class="w-full">
-					<div class="flex bg-bgMenu bg-cover bg-no-repeat justify-between py-2 lg:py-0">
+					<div class="flex bg-bgMenu bg-cover bg-no-repeat justify-between py-2 lg:py-0 lg:px-1">
 						<button
-							class="w-[20%] tab-btn sm:px-4 sm:py-2 text-white font-bold focus:outline-none bg-bgNameMenu bg-contain bg-no-repeat bg-center text-[13px] lg:text-[10px] xl:text-[16px]"
+							class="w-[20%] tab-btn xl:px-4 sm:py-2 text-white font-bold focus:outline-none bg-bgNameMenu bg-contain bg-no-repeat bg-center text-[11px] lg:text-[10px] xl:text-[16px]"
 							data-tab="tab1">Tất cả</button>
 						<button
-							class="w-[20%] tab-btn sm:px-4 sm:py-2 text-yellow-500 font-bold hover:text-yellow-600 text-[13px] lg:text-[10px] xl:text-[16px] focus:outline-none"
+							class="w-[20%] tab-btn xl:px-4 sm:py-2 text-yellow-500 font-bold hover:text-yellow-600 text-[11px] lg:text-[10px] xl:text-[16px] focus:outline-none"
 							data-tab="tab2">Thông báo</button>
 						<button
-							class="w-[20%] tab-btn sm:px-4 sm:py-2 text-yellow-500 font-bold hover:text-yellow-600 text-[13px] lg:text-[10px] xl:text-[16px] focus:outline-none"
+							class="w-[20%] tab-btn xl:px-4 sm:py-2 text-yellow-500 font-bold hover:text-yellow-600 text-[11px] lg:text-[10px] xl:text-[16px] focus:outline-none"
 							data-tab="tab3">Sự Kiện</button>
 						<button
-							class="w-[20%] tab-btn sm:px-4 sm:py-2 text-yellow-500 font-bold hover:text-yellow-600 text-[13px] lg:text-[10px] xl:text-[16px] focus:outline-none"
+							class="w-[20%] tab-btn xl:px-4 sm:py-2 text-yellow-500 font-bold hover:text-yellow-600 text-[11px] lg:text-[10px] xl:text-[16px] focus:outline-none"
 							data-tab="tab3">Tính Năng</button>
 						<button
-							class="w-[20%] tab-btn sm:px-4 sm:py-2 text-yellow-500 font-bold hover:text-yellow-600 text-[13px] lg:text-[10px] xl:text-[16px]focus:outline-none "
+							class="w-[20%] tab-btn xl:px-4 sm:py-2 text-yellow-500 font-bold hover:text-yellow-600 text-[11px] lg:text-[10px] xl:text-[16px]focus:outline-none "
 							data-tab="tab3">Hướng Dẫn</button>
 					</div>
 	
 					<!-- Tab Contents -->
-					<div class="tab-content mt-4 p-2 px-5 flex gap-5 flex-col" id="tab1">
+					<div class="tab-content mt-4 p-2 px-5 flex gap-3 flex-col" id="tab1">
 						<div class="flex flex-col gap-3 lg:block">
 							<div class="flex gap-2">
 								<div class="w-[30%]">
-									<a href="#"><img class="lg:h-28" src="./images/section1/thumbnai.png" alt=""></a>
+									<a href="#"><img class="lg-h2-0 xl:h-28" src="./images/section1/thumbnai.png" alt=""></a>
 								</div>
 								<div class="w-[70%]">
 									<div class="leading-none">
@@ -232,7 +259,7 @@
 									</div>
 									<div class="text-right mt-2">
 										<span
-											class="text-center text-white bg-bgDate inline-block w-24 lg:w-32 bg-no-repeat bg-cover py-1.5 font-bold text-[12px] lg:text-[14px]">10-5-2025</span>
+											class="text-center text-white bg-bgDate inline-block w-24 lg:w-32 bg-no-repeat bg-cover lg:py-1 xl:py-1.5 font-bold text-[12px] lg:text-[12px] xl:text-[14px]">10-5-2025</span>
 									</div>
 								</div>
 							</div>
@@ -245,16 +272,52 @@
 							</a>
 						</div>
 					</div>
-					<div class="tab-content mt-4 hidden p-2 px-5" id="tab2">
-						
+					<div class="tab-content mt-4 p-2 px-5 flex gap-3 flex-col" id="tab2">
+						<div class="flex flex-col gap-3 lg:block">
+							<div class="flex gap-2">
+								<div class="w-[30%]">
+									<a href="#"><img class="lg-h2-0 xl:h-28" src="./images/section1/thumbnai.png" alt=""></a>
+								</div>
+								<div class="w-[70%]">
+									<div class="leading-none">
+										<a href="#">
+											<div
+												class="inline-block py-1 px-2 bg-bgNameCate bg-contain bg-center bg-no-repeat text-[15px] lg:text-[13px] xl:text-[18px] lg:w-20 xl:w-24 text-center text-white font-bold">
+												Sự Kiện
+											</div>
+										</a>
+										<a href="#">
+											<div class="inline text-[11px] lg:text-[14px] xl:text-[20px] font-bold capitalize">
+												Sự kiện vòng quay may mắn tháng 4 | Kiếm thiên mobile
+											</div>
+										</a>
+									</div>
+									<div class="text-blog font-semibold text-[10px] lg:text-[12px] xl:text-[14px] leading-tight">
+										Muôi xinh đẹp xin gửi đến các quý anh hùng thông tin về sự kiện vòng quay may mắn
+										tháng 4, với rất nhiều sự lưa chọn và phần thưởng hấp dẫn
+									</div>
+									<div class="text-right mt-2">
+										<span
+											class="text-center text-white bg-bgDate inline-block w-24 lg:w-32 bg-no-repeat bg-cover lg:py-1 xl:py-1.5 font-bold text-[12px] lg:text-[12px] xl:text-[14px]">10-5-2025</span>
+									</div>
+								</div>
+							</div>
+							
+						</div>
+						<div class="text-right">
+							<a href="#"
+								class="text-center text-white bg-bgRemore inline-block w-32 bg-no-repeat bg-cover py-1.5 font-semibold">
+								Xem thêm
+							</a>
+						</div>
 					</div>
-					<div class="tab-content mt-4 hidden p-2 px-5" id="tab3">
+					<div class="tab-content mt-4 p-2 px-5 flex gap-3 flex-col" id="tab3">
 						<p class="text-gray-700">Nội dung Tab 3: Đây là phần nội dung thứ ba</p>
 					</div>
-					<div class="tab-content mt-4 hidden p-2 px-5" id="tab4">
+					<div class="tab-content mt-4 p-2 px-5 flex gap-3 flex-col" id="tab4">
 						<p class="text-gray-700">Nội dung Tab 2: Đây là phần nội dung thứ tư</p>
 					</div>
-					<div class="tab-content mt-4 hidden p-2 px-5" id="tab5">
+					<div class="tab-content mt-4 p-2 px-5 flex gap-3 flex-col" id="tab5">
 						<p class="text-gray-700">Nội dung Tab 3: Đây là phần nội dung thứ năm</p>
 					</div>
 				</div>
