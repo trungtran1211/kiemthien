@@ -817,17 +817,24 @@ ul {
         height: 100px;
         width: 100px;
         margin-left: -30px;
+        
     }
 
     .nav-btn.active {
         height: 100px;
         width: 100px;
+        padding: 40px 12px 10px 0px;
     }
     .controls {
         flex-wrap: nowrap;
         overflow-x: scroll;
         margin-left: 0;
         font-size: 10px;
+        padding-left: 28px;
+    }
+    .nav-btn {
+        padding: 40px 12px 10px 0px;
+        cursor: pointer;
     }
 }
 
@@ -838,12 +845,20 @@ ul {
         margin-left: 10px;
         font-size: 10px;
         letter-spacing: -1px;
+        padding-left: 10px;
     }
     .nav-btn.active {
         height: 60px;
         width: 70px;
     }
     .nav-btn {
+        height: 60px;
+        width: 70px;
+        padding-top: 28px;
+        margin: 0;
+        margin-left: -25px;
+    }
+    .nav-btn.active {
         height: 60px;
         width: 70px;
         padding-top: 28px;

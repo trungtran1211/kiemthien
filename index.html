@@ -42,7 +42,7 @@
 	<title>Kiếm Thiên</title>
 </head>
 
-<body>
+<body class="overflow-x-hidden">
 
 
 	<div class="header">
@@ -133,919 +133,932 @@
 		<img class="hidden md:block  w-full" src="./images/banner.png" alt="">
 		<img class="md:hidden  w-full" src="./images/banner-mb.png" alt="">
 	</div>
-	<div style="background-size: 110% 100%;" class="xl:-mt-40 relative bg-bgSs2 bg-no-repeat xl:bg-none">
-		<div class="absolute top-[20%] left-0 w-full h-full z-[-1]"> 
+	<div style="background-size: 110% 100%;" class="xl:-mt-40 relative mb-10 lg:mb-0">
+		<div class="absolute top-[0] left-0 w-full h-full z-[-1]"> 
 			<img src="./images/BG_center.png" alt="">
 		</div>
-		<div class="lg:max-w-[900px] xl:max-w-[1200px] mx-auto lg:mb-14 lg:flex lg:flex-row flex-col py-2 px-2 relative lg:gap-3">
-			<div class="absolute top-0 left-6 w-full h-full xl:scale-[115%] z-[0] hidden xl:block">
-				<img src="./images/section1/bg_section1.png" alt="">
-			</div>
-			<div class="box1-left w-[95%] md:w-[80%] xl:w-[45%] flex flex-col gap-2.5 mx-auto relative z-10">
-				<div class="box-left1 flex gap-0.5 items-center">
-					<div class="box-left1_dl">
-						<a href="http://" class="btn" target="_blank" rel="noopener noreferrer"><img
-								src="./images/section1/btn_download.png" alt=""></a>
-					</div>
-					<div class="flex gap-0.5 flex-col ">
-						<div>
+		<div class="max-w-[1200px] mx-auto relative px-2 ">
+			
+			<div class="lg:max-w-[900px] xl:max-w-[1200px] bg-black md:bg-transparent xl:bg-black mx-auto lg:mb-14 lg:flex lg:flex-row flex-col py-2 lg:px-2 relative lg:gap-3">
+				<div class="absolute z-[0] -top-2 -left-1 md:-top-3 md:left-12 lg:-top-8 lg:-left-12 w-[150px] md:w-[300px] lg:w-auto">
+					<img src="./images/border_img/top_left.png" alt="">
+				</div>
+				<div class="absolute z-[0] -top-2 -right-1 md:-top-3 md:right-12 lg:-top-8 lg:-right-12 w-[150px] md:w-[300px] lg:w-auto">
+					<img src="./images/border_img/top_right.png" alt="">
+				</div>
+				<div class="absolute z-[0] -bottom-1 -right-3 md:-bottom-2 md:-right-20 lg:-bottom-5 lg:-right-10 w-[150px] md:w-[300px] lg:w-auto">
+					<img src="./images/border_img/bottom_right.png" alt="">
+				</div>
+				<div class="absolute z-[0] -bottom-1 -left-3 md:-bottom-2 md:left-12 lg:-bottom-5 lg:-left-10 w-[150px] md:w-[300px] lg:w-auto">
+					<img src="./images/border_img/bottom_left.png" alt="">
+				</div>
+				<div class="box1-left w-[95%] md:w-[80%] xl:w-[45%] flex flex-col gap-2.5 mx-auto relative z-10 bg-black lg:bg-transparent">
+					
+					<div class="box-left1 flex gap-0.5 items-center">
+						<div class="box-left1_dl">
 							<a href="http://" class="btn" target="_blank" rel="noopener noreferrer"><img
-									src="./images/section1/btn_register.png" alt=""></a>
+									src="./images/section1/btn_download.png" alt=""></a>
 						</div>
-						<div>
-							<a href="http://" class="btn" target="_blank" rel="noopener noreferrer"><img
-									src="./images/section1/btn_donate.png" alt=""></a>
+						<div class="flex gap-0.5 flex-col ">
+							<div>
+								<a href="http://" class="btn" target="_blank" rel="noopener noreferrer"><img
+										src="./images/section1/btn_register.png" alt=""></a>
+							</div>
+							<div>
+								<a href="http://" class="btn" target="_blank" rel="noopener noreferrer"><img
+										src="./images/section1/btn_donate.png" alt=""></a>
+							</div>
+						</div>
+					</div>
+					<div class="text-center bg-[#3e3e3e] font-roboto py-2 uppercase text-white font-bold">
+						Bảo trì hàng ngày 18h00-18h30
+					</div>
+					<div class="swiper swiper1">
+						<div class="swiper-wrapper">
+							<div class="swiper-slide">
+								<img src="./images/section1/slider1.png" alt="Slide 1" />
+							</div>
+							<div class="swiper-slide">
+								<img src="./images/section1/slider2.png" alt="Slide 1" />
+							</div>
+							<div class="swiper-slide">
+								<img src="./images/section1/slider3.png" alt="Slide 1" />
+							</div>
+						</div>
+						<!-- Pagination -->
+						<div class="swiper-pagination"></div>
+					</div>
+					<div style="background-size: 100% 100%;" class="flex flex-wrap justify-center items-center bg-bgButton bg-cover bg-center">
+						<div class="w-[50%] translate-y-[2px]">
+							<a href="" class="btn">
+								<div class="flex p-2 justify-center items-center gap-3 text-[16px] md:text-[20px] font-bold text-white hover:text-yellow-500">
+									<img class="w-10 md:w-auto" src="./images//section1/icon_tanthu.png" alt="">
+									<p >Tân Thủ</p>
+								</div>
+							</a>
+						</div>
+						<div class="w-[50%] translate-y-[1px]">
+							<a href="" class="btn">
+								<div class="flex p-2 justify-center items-center gap-3 text-[16px] md:text-[20px] font-bold text-white hover:text-yellow-500">
+									<img class="w-10 md:w-auto" src="./images//section1/icon_tinh_nang.png" alt="">
+									<p>Tính năng</p>
+								</div>
+							</a>
+						</div>
+						<div class="w-[50%]">
+							<a href="" class="btn">
+								<div class="flex p-2 justify-center items-center gap-3 text-[16px] md:text-[20px] font-bold text-white hover:text-yellow-500">
+									<img class="w-10 md:w-auto" src="./images//section1/icon_gift.png" alt="">
+									<p>GiftCode</p>
+								</div>
+							</a>
+						</div>
+						<div class="w-[50%]">
+							<a href="" class="btn">
+								<div class="flex p-2 justify-center items-center gap-3 text-[16px] md:text-[20px] font-bold text-white hover:text-yellow-500">
+									<img class="w-10 md:w-auto" src="./images//section1/icon_fanpage.png" alt="">
+									<p>Fanpage</p>
+								</div>
+							</a>
 						</div>
 					</div>
 				</div>
-				<div class="text-center bg-[#3e3e3e] font-roboto py-2 uppercase text-white font-bold">
-					Bảo trì hàng ngày 18h00-18h30
-				</div>
-				<div class="swiper swiper1">
-					<div class="swiper-wrapper">
-						<div class="swiper-slide">
-							<img src="./images/section1/slider1.png" alt="Slide 1" />
+				<div class="box1-right w-[95%] md:w-[80%] xl:w-[55%] bg-bg2 pt-24 mx-auto bg-no-repeat relative z-10 lg:-mt-1">
+					
+					<div class="w-full">
+						<div class="flex bg-bgMenu bg-cover bg-no-repeat justify-between py-2 lg:py-0 lg:px-1">
+							<button
+								class="w-[20%] tab-btn xl:px-4 sm:py-2 text-white font-bold focus:outline-none bg-bgNameMenu bg-contain bg-no-repeat bg-center text-[11px] lg:text-[10px] xl:text-[16px]"
+								data-tab="tab1">Tất cả</button>
+							<button
+								class="w-[20%] tab-btn xl:px-4 sm:py-2 text-yellow-500 font-bold hover:text-yellow-600 text-[11px] lg:text-[10px] xl:text-[16px] focus:outline-none"
+								data-tab="tab2">Thông báo</button>
+							<button
+								class="w-[20%] tab-btn xl:px-4 sm:py-2 text-yellow-500 font-bold hover:text-yellow-600 text-[11px] lg:text-[10px] xl:text-[16px] focus:outline-none"
+								data-tab="tab3">Sự Kiện</button>
+							<button
+								class="w-[20%] tab-btn xl:px-4 sm:py-2 text-yellow-500 font-bold hover:text-yellow-600 text-[11px] lg:text-[10px] xl:text-[16px] focus:outline-none"
+								data-tab="tab4">Tính Năng</button>
+							<button
+								class="w-[20%] tab-btn xl:px-4 sm:py-2 text-yellow-500 font-bold hover:text-yellow-600 text-[11px] lg:text-[10px] xl:text-[16px] focus:outline-none "
+								data-tab="tab5">Hướng Dẫn</button>
 						</div>
-						<div class="swiper-slide">
-							<img src="./images/section1/slider2.png" alt="Slide 1" />
-						</div>
-						<div class="swiper-slide">
-							<img src="./images/section1/slider3.png" alt="Slide 1" />
-						</div>
-					</div>
-					<!-- Pagination -->
-					<div class="swiper-pagination"></div>
-				</div>
-				<div style="background-size: 100% 100%;" class="flex flex-wrap justify-center items-center bg-bgButton bg-cover bg-center">
-					<div class="w-[50%] translate-y-[2px]">
-						<a href="" class="btn">
-							<div class="flex p-2 justify-center items-center gap-3 text-[16px] md:text-[20px] font-bold text-white hover:text-yellow-500">
-								<img class="w-10 md:w-auto" src="./images//section1/icon_tanthu.png" alt="">
-								<p >Tân Thủ</p>
+		
+						<!-- Tab Contents -->
+						<div class="tab-content mt-4 p-2 px-5" id="tab1">
+							<div class="flex flex-col gap-3 lg:block mb-1 xl:mb-3">
+								<div class="flex gap-2">
+									<div class="w-[30%] lg:w-[40%] xl:w-[30%]">
+										<a href="#"><img class="lg-h2-0 xl:h-28" src="./images/section1/thumbnai.png" alt=""></a>
+									</div>
+									<div class="w-[70%]">
+										<div class="leading-none">
+											<a href="#">
+												<div
+													class="inline-block py-1 px-2 bg-bgNameCate bg-contain bg-center bg-no-repeat text-[15px] lg:text-[13px] xl:text-[18px] lg:w-20 xl:w-24 text-center text-white font-bold">
+													Sự Kiện
+												</div>
+											</a>
+											<a href="#">
+												<div class="inline text-[11px] lg:text-[14px] xl:text-[20px] font-bold capitalize">
+													Sự kiện vòng quay may mắn tháng 4 | Kiếm thiên mobile
+												</div>
+											</a>
+										</div>
+										<div class="text-blog font-semibold text-[10px] lg:text-[12px] xl:text-[14px] leading-tight">
+											Muôi xinh đẹp xin gửi đến các quý anh hùng thông tin về sự kiện vòng quay may mắn
+											tháng 4, với rất nhiều sự lưa chọn và phần thưởng hấp dẫn
+										</div>
+										<div class="text-right mt-2">
+											<span
+												class="text-center text-white bg-bgDate inline-block w-24 lg:w-32 bg-no-repeat bg-cover lg:py-1 xl:py-1.5 font-bold text-[12px] lg:text-[12px] xl:text-[14px]">10-5-2025</span>
+										</div>
+									</div>
+								</div>
+								
 							</div>
-						</a>
-					</div>
-					<div class="w-[50%] translate-y-[1px]">
-						<a href="" class="btn">
-							<div class="flex p-2 justify-center items-center gap-3 text-[16px] md:text-[20px] font-bold text-white hover:text-yellow-500">
-								<img class="w-10 md:w-auto" src="./images//section1/icon_tinh_nang.png" alt="">
-								<p>Tính năng</p>
+							<div class="flex flex-col gap-3 lg:block mb-1 xl:mb-3">
+								<div class="flex gap-2">
+									<div class="w-[30%] lg:w-[40%] xl:w-[30%]">
+										<a href="#"><img class="lg-h2-0 xl:h-28" src="./images/section1/thumbnai.png" alt=""></a>
+									</div>
+									<div class="w-[70%]">
+										<div class="leading-none">
+											<a href="#">
+												<div
+													class="inline-block py-1 px-2 bg-bgNameCate bg-contain bg-center bg-no-repeat text-[15px] lg:text-[13px] xl:text-[18px] lg:w-20 xl:w-24 text-center text-white font-bold">
+													Sự Kiện
+												</div>
+											</a>
+											<a href="#">
+												<div class="inline text-[11px] lg:text-[14px] xl:text-[20px] font-bold capitalize">
+													Sự kiện vòng quay may mắn tháng 4 | Kiếm thiên mobile
+												</div>
+											</a>
+										</div>
+										<div class="text-blog font-semibold text-[10px] lg:text-[12px] xl:text-[14px] leading-tight">
+											Muôi xinh đẹp xin gửi đến các quý anh hùng thông tin về sự kiện vòng quay may mắn
+											tháng 4, với rất nhiều sự lưa chọn và phần thưởng hấp dẫn
+										</div>
+										<div class="text-right mt-2">
+											<span
+												class="text-center text-white bg-bgDate inline-block w-24 lg:w-32 bg-no-repeat bg-cover lg:py-1 xl:py-1.5 font-bold text-[12px] lg:text-[12px] xl:text-[14px]">10-5-2025</span>
+										</div>
+									</div>
+								</div>
+								
 							</div>
-						</a>
-					</div>
-					<div class="w-[50%]">
-						<a href="" class="btn">
-							<div class="flex p-2 justify-center items-center gap-3 text-[16px] md:text-[20px] font-bold text-white hover:text-yellow-500">
-								<img class="w-10 md:w-auto" src="./images//section1/icon_gift.png" alt="">
-								<p>GiftCode</p>
+							<div class="flex flex-col gap-3 lg:block mb-1 xl:mb-3">
+								<div class="flex gap-2">
+									<div class="w-[30%] lg:w-[40%] xl:w-[30%]">
+										<a href="#"><img class="lg-h2-0 xl:h-28" src="./images/section1/thumbnai.png" alt=""></a>
+									</div>
+									<div class="w-[70%]">
+										<div class="leading-none">
+											<a href="#">
+												<div
+													class="inline-block py-1 px-2 bg-bgNameCate bg-contain bg-center bg-no-repeat text-[15px] lg:text-[13px] xl:text-[18px] lg:w-20 xl:w-24 text-center text-white font-bold">
+													Sự Kiện
+												</div>
+											</a>
+											<a href="#">
+												<div class="inline text-[11px] lg:text-[14px] xl:text-[20px] font-bold capitalize">
+													Sự kiện vòng quay may mắn tháng 4 | Kiếm thiên mobile
+												</div>
+											</a>
+										</div>
+										<div class="text-blog font-semibold text-[10px] lg:text-[12px] xl:text-[14px] leading-tight">
+											Muôi xinh đẹp xin gửi đến các quý anh hùng thông tin về sự kiện vòng quay may mắn
+											tháng 4, với rất nhiều sự lưa chọn và phần thưởng hấp dẫn
+										</div>
+										<div class="text-right mt-2">
+											<span
+												class="text-center text-white bg-bgDate inline-block w-24 lg:w-32 bg-no-repeat bg-cover lg:py-1 xl:py-1.5 font-bold text-[12px] lg:text-[12px] xl:text-[14px]">10-5-2025</span>
+										</div>
+									</div>
+								</div>
+								
 							</div>
-						</a>
-					</div>
-					<div class="w-[50%]">
-						<a href="" class="btn">
-							<div class="flex p-2 justify-center items-center gap-3 text-[16px] md:text-[20px] font-bold text-white hover:text-yellow-500">
-								<img class="w-10 md:w-auto" src="./images//section1/icon_fanpage.png" alt="">
-								<p>Fanpage</p>
+							<div class="flex flex-col gap-3 lg:block mb-1 xl:mb-3">
+								<div class="flex gap-2">
+									<div class="w-[30%] lg:w-[40%] xl:w-[30%]">
+										<a href="#"><img class="lg-h2-0 xl:h-28" src="./images/section1/thumbnai.png" alt=""></a>
+									</div>
+									<div class="w-[70%]">
+										<div class="leading-none">
+											<a href="#">
+												<div
+													class="inline-block py-1 px-2 bg-bgNameCate bg-contain bg-center bg-no-repeat text-[15px] lg:text-[13px] xl:text-[18px] lg:w-20 xl:w-24 text-center text-white font-bold">
+													Sự Kiện
+												</div>
+											</a>
+											<a href="#">
+												<div class="inline text-[11px] lg:text-[14px] xl:text-[20px] font-bold capitalize">
+													Sự kiện vòng quay may mắn tháng 4 | Kiếm thiên mobile
+												</div>
+											</a>
+										</div>
+										<div class="text-blog font-semibold text-[10px] lg:text-[12px] xl:text-[14px] leading-tight">
+											Muôi xinh đẹp xin gửi đến các quý anh hùng thông tin về sự kiện vòng quay may mắn
+											tháng 4, với rất nhiều sự lưa chọn và phần thưởng hấp dẫn
+										</div>
+										<div class="text-right mt-2">
+											<span
+												class="text-center text-white bg-bgDate inline-block w-24 lg:w-32 bg-no-repeat bg-cover lg:py-1 xl:py-1.5 font-bold text-[12px] lg:text-[12px] xl:text-[14px]">10-5-2025</span>
+										</div>
+									</div>
+								</div>
+								
 							</div>
-						</a>
-					</div>
-				</div>
-			</div>
-			<div class="box1-right w-[95%] md:w-[80%] xl:w-[55%] bg-bg2 pt-24 mx-auto bg-no-repeat relative z-10 lg:-mt-1">
-				
-				<div class="w-full">
-					<div class="flex bg-bgMenu bg-cover bg-no-repeat justify-between py-2 lg:py-0 lg:px-1">
-						<button
-							class="w-[20%] tab-btn xl:px-4 sm:py-2 text-white font-bold focus:outline-none bg-bgNameMenu bg-contain bg-no-repeat bg-center text-[11px] lg:text-[10px] xl:text-[16px]"
-							data-tab="tab1">Tất cả</button>
-						<button
-							class="w-[20%] tab-btn xl:px-4 sm:py-2 text-yellow-500 font-bold hover:text-yellow-600 text-[11px] lg:text-[10px] xl:text-[16px] focus:outline-none"
-							data-tab="tab2">Thông báo</button>
-						<button
-							class="w-[20%] tab-btn xl:px-4 sm:py-2 text-yellow-500 font-bold hover:text-yellow-600 text-[11px] lg:text-[10px] xl:text-[16px] focus:outline-none"
-							data-tab="tab3">Sự Kiện</button>
-						<button
-							class="w-[20%] tab-btn xl:px-4 sm:py-2 text-yellow-500 font-bold hover:text-yellow-600 text-[11px] lg:text-[10px] xl:text-[16px] focus:outline-none"
-							data-tab="tab4">Tính Năng</button>
-						<button
-							class="w-[20%] tab-btn xl:px-4 sm:py-2 text-yellow-500 font-bold hover:text-yellow-600 text-[11px] lg:text-[10px] xl:text-[16px] focus:outline-none "
-							data-tab="tab5">Hướng Dẫn</button>
-					</div>
-	
-					<!-- Tab Contents -->
-					<div class="tab-content mt-4 p-2 px-5" id="tab1">
-						<div class="flex flex-col gap-3 lg:block mb-1 xl:mb-3">
-							<div class="flex gap-2">
-								<div class="w-[30%] lg:w-[40%] xl:w-[30%]">
-									<a href="#"><img class="lg-h2-0 xl:h-28" src="./images/section1/thumbnai.png" alt=""></a>
-								</div>
-								<div class="w-[70%]">
-									<div class="leading-none">
-										<a href="#">
-											<div
-												class="inline-block py-1 px-2 bg-bgNameCate bg-contain bg-center bg-no-repeat text-[15px] lg:text-[13px] xl:text-[18px] lg:w-20 xl:w-24 text-center text-white font-bold">
-												Sự Kiện
-											</div>
-										</a>
-										<a href="#">
-											<div class="inline text-[11px] lg:text-[14px] xl:text-[20px] font-bold capitalize">
-												Sự kiện vòng quay may mắn tháng 4 | Kiếm thiên mobile
-											</div>
-										</a>
+							<div class="flex flex-col gap-3 lg:block mb-1 xl:mb-3">
+								<div class="flex gap-2">
+									<div class="w-[30%] lg:w-[40%] xl:w-[30%]">
+										<a href="#"><img class="lg-h2-0 xl:h-28" src="./images/section1/thumbnai.png" alt=""></a>
 									</div>
-									<div class="text-blog font-semibold text-[10px] lg:text-[12px] xl:text-[14px] leading-tight">
-										Muôi xinh đẹp xin gửi đến các quý anh hùng thông tin về sự kiện vòng quay may mắn
-										tháng 4, với rất nhiều sự lưa chọn và phần thưởng hấp dẫn
-									</div>
-									<div class="text-right mt-2">
-										<span
-											class="text-center text-white bg-bgDate inline-block w-24 lg:w-32 bg-no-repeat bg-cover lg:py-1 xl:py-1.5 font-bold text-[12px] lg:text-[12px] xl:text-[14px]">10-5-2025</span>
+									<div class="w-[70%]">
+										<div class="leading-none">
+											<a href="#">
+												<div
+													class="inline-block py-1 px-2 bg-bgNameCate bg-contain bg-center bg-no-repeat text-[15px] lg:text-[13px] xl:text-[18px] lg:w-20 xl:w-24 text-center text-white font-bold">
+													Sự Kiện
+												</div>
+											</a>
+											<a href="#">
+												<div class="inline text-[11px] lg:text-[14px] xl:text-[20px] font-bold capitalize">
+													Sự kiện vòng quay may mắn tháng 4 | Kiếm thiên mobile
+												</div>
+											</a>
+										</div>
+										<div class="text-blog font-semibold text-[10px] lg:text-[12px] xl:text-[14px] leading-tight">
+											Muôi xinh đẹp xin gửi đến các quý anh hùng thông tin về sự kiện vòng quay may mắn
+											tháng 4, với rất nhiều sự lưa chọn và phần thưởng hấp dẫn
+										</div>
+										<div class="text-right mt-2">
+											<span
+												class="text-center text-white bg-bgDate inline-block w-24 lg:w-32 bg-no-repeat bg-cover lg:py-1 xl:py-1.5 font-bold text-[12px] lg:text-[12px] xl:text-[14px]">10-5-2025</span>
+										</div>
 									</div>
 								</div>
+								
 							</div>
-							
-						</div>
-						<div class="flex flex-col gap-3 lg:block mb-1 xl:mb-3">
-							<div class="flex gap-2">
-								<div class="w-[30%] lg:w-[40%] xl:w-[30%]">
-									<a href="#"><img class="lg-h2-0 xl:h-28" src="./images/section1/thumbnai.png" alt=""></a>
-								</div>
-								<div class="w-[70%]">
-									<div class="leading-none">
-										<a href="#">
-											<div
-												class="inline-block py-1 px-2 bg-bgNameCate bg-contain bg-center bg-no-repeat text-[15px] lg:text-[13px] xl:text-[18px] lg:w-20 xl:w-24 text-center text-white font-bold">
-												Sự Kiện
-											</div>
-										</a>
-										<a href="#">
-											<div class="inline text-[11px] lg:text-[14px] xl:text-[20px] font-bold capitalize">
-												Sự kiện vòng quay may mắn tháng 4 | Kiếm thiên mobile
-											</div>
-										</a>
-									</div>
-									<div class="text-blog font-semibold text-[10px] lg:text-[12px] xl:text-[14px] leading-tight">
-										Muôi xinh đẹp xin gửi đến các quý anh hùng thông tin về sự kiện vòng quay may mắn
-										tháng 4, với rất nhiều sự lưa chọn và phần thưởng hấp dẫn
-									</div>
-									<div class="text-right mt-2">
-										<span
-											class="text-center text-white bg-bgDate inline-block w-24 lg:w-32 bg-no-repeat bg-cover lg:py-1 xl:py-1.5 font-bold text-[12px] lg:text-[12px] xl:text-[14px]">10-5-2025</span>
-									</div>
-								</div>
+							<div class="text-right ">
+								<a href="#"
+									class="btn text-center text-white bg-bgRemore inline-block w-32 bg-no-repeat bg-cover py-1.5 font-semibold">
+									Xem thêm
+								</a>
 							</div>
-							
 						</div>
-						<div class="flex flex-col gap-3 lg:block mb-1 xl:mb-3">
-							<div class="flex gap-2">
-								<div class="w-[30%] lg:w-[40%] xl:w-[30%]">
-									<a href="#"><img class="lg-h2-0 xl:h-28" src="./images/section1/thumbnai.png" alt=""></a>
+						<div class="tab-content mt-4 p-2 px-5 hidden" id="tab2">
+							<div class="flex flex-col gap-3 lg:block mb-1 xl:mb-3">
+								<div class="flex gap-2">
+									<div class="w-[30%] lg:w-[40%] xl:w-[30%]">
+										<a href="#"><img class="lg-h2-0 xl:h-28" src="./images/section1/thumbnai.png" alt=""></a>
+									</div>
+									<div class="w-[70%]">
+										<div class="leading-none">
+											<a href="#">
+												<div
+													class="inline-block py-1 px-2 bg-bgNameCate bg-contain bg-center bg-no-repeat text-[15px] lg:text-[13px] xl:text-[18px] lg:w-20 xl:w-24 text-center text-white font-bold">
+													Sự Kiện
+												</div>
+											</a>
+											<a href="#">
+												<div class="inline text-[11px] lg:text-[14px] xl:text-[20px] font-bold capitalize">
+													Sự kiện vòng quay may mắn tháng 4 | Kiếm thiên mobile
+												</div>
+											</a>
+										</div>
+										<div class="text-blog font-semibold text-[10px] lg:text-[12px] xl:text-[14px] leading-tight">
+											Muôi xinh đẹp xin gửi đến các quý anh hùng thông tin về sự kiện vòng quay may mắn
+											tháng 4, với rất nhiều sự lưa chọn và phần thưởng hấp dẫn
+										</div>
+										<div class="text-right mt-2">
+											<span
+												class="text-center text-white bg-bgDate inline-block w-24 lg:w-32 bg-no-repeat bg-cover lg:py-1 xl:py-1.5 font-bold text-[12px] lg:text-[12px] xl:text-[14px]">10-5-2025</span>
+										</div>
+									</div>
 								</div>
-								<div class="w-[70%]">
-									<div class="leading-none">
-										<a href="#">
-											<div
-												class="inline-block py-1 px-2 bg-bgNameCate bg-contain bg-center bg-no-repeat text-[15px] lg:text-[13px] xl:text-[18px] lg:w-20 xl:w-24 text-center text-white font-bold">
-												Sự Kiện
-											</div>
-										</a>
-										<a href="#">
-											<div class="inline text-[11px] lg:text-[14px] xl:text-[20px] font-bold capitalize">
-												Sự kiện vòng quay may mắn tháng 4 | Kiếm thiên mobile
-											</div>
-										</a>
-									</div>
-									<div class="text-blog font-semibold text-[10px] lg:text-[12px] xl:text-[14px] leading-tight">
-										Muôi xinh đẹp xin gửi đến các quý anh hùng thông tin về sự kiện vòng quay may mắn
-										tháng 4, với rất nhiều sự lưa chọn và phần thưởng hấp dẫn
-									</div>
-									<div class="text-right mt-2">
-										<span
-											class="text-center text-white bg-bgDate inline-block w-24 lg:w-32 bg-no-repeat bg-cover lg:py-1 xl:py-1.5 font-bold text-[12px] lg:text-[12px] xl:text-[14px]">10-5-2025</span>
-									</div>
-								</div>
+								
 							</div>
-							
-						</div>
-						<div class="flex flex-col gap-3 lg:block mb-1 xl:mb-3">
-							<div class="flex gap-2">
-								<div class="w-[30%] lg:w-[40%] xl:w-[30%]">
-									<a href="#"><img class="lg-h2-0 xl:h-28" src="./images/section1/thumbnai.png" alt=""></a>
+							<div class="flex flex-col gap-3 lg:block mb-1 xl:mb-3">
+								<div class="flex gap-2">
+									<div class="w-[30%] lg:w-[40%] xl:w-[30%]">
+										<a href="#"><img class="lg-h2-0 xl:h-28" src="./images/section1/thumbnai.png" alt=""></a>
+									</div>
+									<div class="w-[70%]">
+										<div class="leading-none">
+											<a href="#">
+												<div
+													class="inline-block py-1 px-2 bg-bgNameCate bg-contain bg-center bg-no-repeat text-[15px] lg:text-[13px] xl:text-[18px] lg:w-20 xl:w-24 text-center text-white font-bold">
+													Sự Kiện
+												</div>
+											</a>
+											<a href="#">
+												<div class="inline text-[11px] lg:text-[14px] xl:text-[20px] font-bold capitalize">
+													Sự kiện vòng quay may mắn tháng 4 | Kiếm thiên mobile
+												</div>
+											</a>
+										</div>
+										<div class="text-blog font-semibold text-[10px] lg:text-[12px] xl:text-[14px] leading-tight">
+											Muôi xinh đẹp xin gửi đến các quý anh hùng thông tin về sự kiện vòng quay may mắn
+											tháng 4, với rất nhiều sự lưa chọn và phần thưởng hấp dẫn
+										</div>
+										<div class="text-right mt-2">
+											<span
+												class="text-center text-white bg-bgDate inline-block w-24 lg:w-32 bg-no-repeat bg-cover lg:py-1 xl:py-1.5 font-bold text-[12px] lg:text-[12px] xl:text-[14px]">10-5-2025</span>
+										</div>
+									</div>
 								</div>
-								<div class="w-[70%]">
-									<div class="leading-none">
-										<a href="#">
-											<div
-												class="inline-block py-1 px-2 bg-bgNameCate bg-contain bg-center bg-no-repeat text-[15px] lg:text-[13px] xl:text-[18px] lg:w-20 xl:w-24 text-center text-white font-bold">
-												Sự Kiện
-											</div>
-										</a>
-										<a href="#">
-											<div class="inline text-[11px] lg:text-[14px] xl:text-[20px] font-bold capitalize">
-												Sự kiện vòng quay may mắn tháng 4 | Kiếm thiên mobile
-											</div>
-										</a>
-									</div>
-									<div class="text-blog font-semibold text-[10px] lg:text-[12px] xl:text-[14px] leading-tight">
-										Muôi xinh đẹp xin gửi đến các quý anh hùng thông tin về sự kiện vòng quay may mắn
-										tháng 4, với rất nhiều sự lưa chọn và phần thưởng hấp dẫn
-									</div>
-									<div class="text-right mt-2">
-										<span
-											class="text-center text-white bg-bgDate inline-block w-24 lg:w-32 bg-no-repeat bg-cover lg:py-1 xl:py-1.5 font-bold text-[12px] lg:text-[12px] xl:text-[14px]">10-5-2025</span>
-									</div>
-								</div>
+								
 							</div>
-							
-						</div>
-						<div class="flex flex-col gap-3 lg:block mb-1 xl:mb-3">
-							<div class="flex gap-2">
-								<div class="w-[30%] lg:w-[40%] xl:w-[30%]">
-									<a href="#"><img class="lg-h2-0 xl:h-28" src="./images/section1/thumbnai.png" alt=""></a>
+							<div class="flex flex-col gap-3 lg:block mb-1 xl:mb-3">
+								<div class="flex gap-2">
+									<div class="w-[30%] lg:w-[40%] xl:w-[30%]">
+										<a href="#"><img class="lg-h2-0 xl:h-28" src="./images/section1/thumbnai.png" alt=""></a>
+									</div>
+									<div class="w-[70%]">
+										<div class="leading-none">
+											<a href="#">
+												<div
+													class="inline-block py-1 px-2 bg-bgNameCate bg-contain bg-center bg-no-repeat text-[15px] lg:text-[13px] xl:text-[18px] lg:w-20 xl:w-24 text-center text-white font-bold">
+													Sự Kiện
+												</div>
+											</a>
+											<a href="#">
+												<div class="inline text-[11px] lg:text-[14px] xl:text-[20px] font-bold capitalize">
+													Sự kiện vòng quay may mắn tháng 4 | Kiếm thiên mobile
+												</div>
+											</a>
+										</div>
+										<div class="text-blog font-semibold text-[10px] lg:text-[12px] xl:text-[14px] leading-tight">
+											Muôi xinh đẹp xin gửi đến các quý anh hùng thông tin về sự kiện vòng quay may mắn
+											tháng 4, với rất nhiều sự lưa chọn và phần thưởng hấp dẫn
+										</div>
+										<div class="text-right mt-2">
+											<span
+												class="text-center text-white bg-bgDate inline-block w-24 lg:w-32 bg-no-repeat bg-cover lg:py-1 xl:py-1.5 font-bold text-[12px] lg:text-[12px] xl:text-[14px]">10-5-2025</span>
+										</div>
+									</div>
 								</div>
-								<div class="w-[70%]">
-									<div class="leading-none">
-										<a href="#">
-											<div
-												class="inline-block py-1 px-2 bg-bgNameCate bg-contain bg-center bg-no-repeat text-[15px] lg:text-[13px] xl:text-[18px] lg:w-20 xl:w-24 text-center text-white font-bold">
-												Sự Kiện
-											</div>
-										</a>
-										<a href="#">
-											<div class="inline text-[11px] lg:text-[14px] xl:text-[20px] font-bold capitalize">
-												Sự kiện vòng quay may mắn tháng 4 | Kiếm thiên mobile
-											</div>
-										</a>
-									</div>
-									<div class="text-blog font-semibold text-[10px] lg:text-[12px] xl:text-[14px] leading-tight">
-										Muôi xinh đẹp xin gửi đến các quý anh hùng thông tin về sự kiện vòng quay may mắn
-										tháng 4, với rất nhiều sự lưa chọn và phần thưởng hấp dẫn
-									</div>
-									<div class="text-right mt-2">
-										<span
-											class="text-center text-white bg-bgDate inline-block w-24 lg:w-32 bg-no-repeat bg-cover lg:py-1 xl:py-1.5 font-bold text-[12px] lg:text-[12px] xl:text-[14px]">10-5-2025</span>
-									</div>
-								</div>
+								
 							</div>
-							
-						</div>
-						<div class="text-right ">
-							<a href="#"
-								class="btn text-center text-white bg-bgRemore inline-block w-32 bg-no-repeat bg-cover py-1.5 font-semibold">
-								Xem thêm
-							</a>
-						</div>
-					</div>
-					<div class="tab-content mt-4 p-2 px-5 hidden" id="tab2">
-						<div class="flex flex-col gap-3 lg:block mb-1 xl:mb-3">
-							<div class="flex gap-2">
-								<div class="w-[30%] lg:w-[40%] xl:w-[30%]">
-									<a href="#"><img class="lg-h2-0 xl:h-28" src="./images/section1/thumbnai.png" alt=""></a>
-								</div>
-								<div class="w-[70%]">
-									<div class="leading-none">
-										<a href="#">
-											<div
-												class="inline-block py-1 px-2 bg-bgNameCate bg-contain bg-center bg-no-repeat text-[15px] lg:text-[13px] xl:text-[18px] lg:w-20 xl:w-24 text-center text-white font-bold">
-												Sự Kiện
-											</div>
-										</a>
-										<a href="#">
-											<div class="inline text-[11px] lg:text-[14px] xl:text-[20px] font-bold capitalize">
-												Sự kiện vòng quay may mắn tháng 4 | Kiếm thiên mobile
-											</div>
-										</a>
+							<div class="flex flex-col gap-3 lg:block mb-1 xl:mb-3">
+								<div class="flex gap-2">
+									<div class="w-[30%] lg:w-[40%] xl:w-[30%]">
+										<a href="#"><img class="lg-h2-0 xl:h-28" src="./images/section1/thumbnai.png" alt=""></a>
 									</div>
-									<div class="text-blog font-semibold text-[10px] lg:text-[12px] xl:text-[14px] leading-tight">
-										Muôi xinh đẹp xin gửi đến các quý anh hùng thông tin về sự kiện vòng quay may mắn
-										tháng 4, với rất nhiều sự lưa chọn và phần thưởng hấp dẫn
-									</div>
-									<div class="text-right mt-2">
-										<span
-											class="text-center text-white bg-bgDate inline-block w-24 lg:w-32 bg-no-repeat bg-cover lg:py-1 xl:py-1.5 font-bold text-[12px] lg:text-[12px] xl:text-[14px]">10-5-2025</span>
+									<div class="w-[70%]">
+										<div class="leading-none">
+											<a href="#">
+												<div
+													class="inline-block py-1 px-2 bg-bgNameCate bg-contain bg-center bg-no-repeat text-[15px] lg:text-[13px] xl:text-[18px] lg:w-20 xl:w-24 text-center text-white font-bold">
+													Sự Kiện
+												</div>
+											</a>
+											<a href="#">
+												<div class="inline text-[11px] lg:text-[14px] xl:text-[20px] font-bold capitalize">
+													Sự kiện vòng quay may mắn tháng 4 | Kiếm thiên mobile
+												</div>
+											</a>
+										</div>
+										<div class="text-blog font-semibold text-[10px] lg:text-[12px] xl:text-[14px] leading-tight">
+											Muôi xinh đẹp xin gửi đến các quý anh hùng thông tin về sự kiện vòng quay may mắn
+											tháng 4, với rất nhiều sự lưa chọn và phần thưởng hấp dẫn
+										</div>
+										<div class="text-right mt-2">
+											<span
+												class="text-center text-white bg-bgDate inline-block w-24 lg:w-32 bg-no-repeat bg-cover lg:py-1 xl:py-1.5 font-bold text-[12px] lg:text-[12px] xl:text-[14px]">10-5-2025</span>
+										</div>
 									</div>
 								</div>
+								
 							</div>
-							
-						</div>
-						<div class="flex flex-col gap-3 lg:block mb-1 xl:mb-3">
-							<div class="flex gap-2">
-								<div class="w-[30%] lg:w-[40%] xl:w-[30%]">
-									<a href="#"><img class="lg-h2-0 xl:h-28" src="./images/section1/thumbnai.png" alt=""></a>
+							<div class="flex flex-col gap-3 lg:block mb-1 xl:mb-3">
+								<div class="flex gap-2">
+									<div class="w-[30%] lg:w-[40%] xl:w-[30%]">
+										<a href="#"><img class="lg-h2-0 xl:h-28" src="./images/section1/thumbnai.png" alt=""></a>
+									</div>
+									<div class="w-[70%]">
+										<div class="leading-none">
+											<a href="#">
+												<div
+													class="inline-block py-1 px-2 bg-bgNameCate bg-contain bg-center bg-no-repeat text-[15px] lg:text-[13px] xl:text-[18px] lg:w-20 xl:w-24 text-center text-white font-bold">
+													Sự Kiện
+												</div>
+											</a>
+											<a href="#">
+												<div class="inline text-[11px] lg:text-[14px] xl:text-[20px] font-bold capitalize">
+													Sự kiện vòng quay may mắn tháng 4 | Kiếm thiên mobile
+												</div>
+											</a>
+										</div>
+										<div class="text-blog font-semibold text-[10px] lg:text-[12px] xl:text-[14px] leading-tight">
+											Muôi xinh đẹp xin gửi đến các quý anh hùng thông tin về sự kiện vòng quay may mắn
+											tháng 4, với rất nhiều sự lưa chọn và phần thưởng hấp dẫn
+										</div>
+										<div class="text-right mt-2">
+											<span
+												class="text-center text-white bg-bgDate inline-block w-24 lg:w-32 bg-no-repeat bg-cover lg:py-1 xl:py-1.5 font-bold text-[12px] lg:text-[12px] xl:text-[14px]">10-5-2025</span>
+										</div>
+									</div>
 								</div>
-								<div class="w-[70%]">
-									<div class="leading-none">
-										<a href="#">
-											<div
-												class="inline-block py-1 px-2 bg-bgNameCate bg-contain bg-center bg-no-repeat text-[15px] lg:text-[13px] xl:text-[18px] lg:w-20 xl:w-24 text-center text-white font-bold">
-												Sự Kiện
-											</div>
-										</a>
-										<a href="#">
-											<div class="inline text-[11px] lg:text-[14px] xl:text-[20px] font-bold capitalize">
-												Sự kiện vòng quay may mắn tháng 4 | Kiếm thiên mobile
-											</div>
-										</a>
-									</div>
-									<div class="text-blog font-semibold text-[10px] lg:text-[12px] xl:text-[14px] leading-tight">
-										Muôi xinh đẹp xin gửi đến các quý anh hùng thông tin về sự kiện vòng quay may mắn
-										tháng 4, với rất nhiều sự lưa chọn và phần thưởng hấp dẫn
-									</div>
-									<div class="text-right mt-2">
-										<span
-											class="text-center text-white bg-bgDate inline-block w-24 lg:w-32 bg-no-repeat bg-cover lg:py-1 xl:py-1.5 font-bold text-[12px] lg:text-[12px] xl:text-[14px]">10-5-2025</span>
-									</div>
-								</div>
+								
 							</div>
-							
-						</div>
-						<div class="flex flex-col gap-3 lg:block mb-1 xl:mb-3">
-							<div class="flex gap-2">
-								<div class="w-[30%] lg:w-[40%] xl:w-[30%]">
-									<a href="#"><img class="lg-h2-0 xl:h-28" src="./images/section1/thumbnai.png" alt=""></a>
-								</div>
-								<div class="w-[70%]">
-									<div class="leading-none">
-										<a href="#">
-											<div
-												class="inline-block py-1 px-2 bg-bgNameCate bg-contain bg-center bg-no-repeat text-[15px] lg:text-[13px] xl:text-[18px] lg:w-20 xl:w-24 text-center text-white font-bold">
-												Sự Kiện
-											</div>
-										</a>
-										<a href="#">
-											<div class="inline text-[11px] lg:text-[14px] xl:text-[20px] font-bold capitalize">
-												Sự kiện vòng quay may mắn tháng 4 | Kiếm thiên mobile
-											</div>
-										</a>
-									</div>
-									<div class="text-blog font-semibold text-[10px] lg:text-[12px] xl:text-[14px] leading-tight">
-										Muôi xinh đẹp xin gửi đến các quý anh hùng thông tin về sự kiện vòng quay may mắn
-										tháng 4, với rất nhiều sự lưa chọn và phần thưởng hấp dẫn
-									</div>
-									<div class="text-right mt-2">
-										<span
-											class="text-center text-white bg-bgDate inline-block w-24 lg:w-32 bg-no-repeat bg-cover lg:py-1 xl:py-1.5 font-bold text-[12px] lg:text-[12px] xl:text-[14px]">10-5-2025</span>
-									</div>
-								</div>
+							<div class="text-right">
+								<a href="#"
+									class="btn text-center text-white bg-bgRemore inline-block w-32 bg-no-repeat bg-cover py-1.5 font-semibold">
+									Xem thêm
+								</a>
 							</div>
-							
 						</div>
-						<div class="flex flex-col gap-3 lg:block mb-1 xl:mb-3">
-							<div class="flex gap-2">
-								<div class="w-[30%] lg:w-[40%] xl:w-[30%]">
-									<a href="#"><img class="lg-h2-0 xl:h-28" src="./images/section1/thumbnai.png" alt=""></a>
+						<div class="tab-content mt-4 p-2 px-5 hidden" id="tab3">
+							<div class="flex flex-col gap-3 lg:block mb-1 xl:mb-3">
+								<div class="flex gap-2">
+									<div class="w-[30%] lg:w-[40%] xl:w-[30%]">
+										<a href="#"><img class="lg-h2-0 xl:h-28" src="./images/section1/thumbnai.png" alt=""></a>
+									</div>
+									<div class="w-[70%]">
+										<div class="leading-none">
+											<a href="#">
+												<div
+													class="inline-block py-1 px-2 bg-bgNameCate bg-contain bg-center bg-no-repeat text-[15px] lg:text-[13px] xl:text-[18px] lg:w-20 xl:w-24 text-center text-white font-bold">
+													Sự Kiện
+												</div>
+											</a>
+											<a href="#">
+												<div class="inline text-[11px] lg:text-[14px] xl:text-[20px] font-bold capitalize">
+													Sự kiện vòng quay may mắn tháng 4 | Kiếm thiên mobile
+												</div>
+											</a>
+										</div>
+										<div class="text-blog font-semibold text-[10px] lg:text-[12px] xl:text-[14px] leading-tight">
+											Muôi xinh đẹp xin gửi đến các quý anh hùng thông tin về sự kiện vòng quay may mắn
+											tháng 4, với rất nhiều sự lưa chọn và phần thưởng hấp dẫn
+										</div>
+										<div class="text-right mt-2">
+											<span
+												class="text-center text-white bg-bgDate inline-block w-24 lg:w-32 bg-no-repeat bg-cover lg:py-1 xl:py-1.5 font-bold text-[12px] lg:text-[12px] xl:text-[14px]">10-5-2025</span>
+										</div>
+									</div>
 								</div>
-								<div class="w-[70%]">
-									<div class="leading-none">
-										<a href="#">
-											<div
-												class="inline-block py-1 px-2 bg-bgNameCate bg-contain bg-center bg-no-repeat text-[15px] lg:text-[13px] xl:text-[18px] lg:w-20 xl:w-24 text-center text-white font-bold">
-												Sự Kiện
-											</div>
-										</a>
-										<a href="#">
-											<div class="inline text-[11px] lg:text-[14px] xl:text-[20px] font-bold capitalize">
-												Sự kiện vòng quay may mắn tháng 4 | Kiếm thiên mobile
-											</div>
-										</a>
-									</div>
-									<div class="text-blog font-semibold text-[10px] lg:text-[12px] xl:text-[14px] leading-tight">
-										Muôi xinh đẹp xin gửi đến các quý anh hùng thông tin về sự kiện vòng quay may mắn
-										tháng 4, với rất nhiều sự lưa chọn và phần thưởng hấp dẫn
-									</div>
-									<div class="text-right mt-2">
-										<span
-											class="text-center text-white bg-bgDate inline-block w-24 lg:w-32 bg-no-repeat bg-cover lg:py-1 xl:py-1.5 font-bold text-[12px] lg:text-[12px] xl:text-[14px]">10-5-2025</span>
-									</div>
-								</div>
+								
 							</div>
-							
-						</div>
-						<div class="flex flex-col gap-3 lg:block mb-1 xl:mb-3">
-							<div class="flex gap-2">
-								<div class="w-[30%] lg:w-[40%] xl:w-[30%]">
-									<a href="#"><img class="lg-h2-0 xl:h-28" src="./images/section1/thumbnai.png" alt=""></a>
+							<div class="flex flex-col gap-3 lg:block mb-1 xl:mb-3">
+								<div class="flex gap-2">
+									<div class="w-[30%] lg:w-[40%] xl:w-[30%]">
+										<a href="#"><img class="lg-h2-0 xl:h-28" src="./images/section1/thumbnai.png" alt=""></a>
+									</div>
+									<div class="w-[70%]">
+										<div class="leading-none">
+											<a href="#">
+												<div
+													class="inline-block py-1 px-2 bg-bgNameCate bg-contain bg-center bg-no-repeat text-[15px] lg:text-[13px] xl:text-[18px] lg:w-20 xl:w-24 text-center text-white font-bold">
+													Sự Kiện
+												</div>
+											</a>
+											<a href="#">
+												<div class="inline text-[11px] lg:text-[14px] xl:text-[20px] font-bold capitalize">
+													Sự kiện vòng quay may mắn tháng 4 | Kiếm thiên mobile
+												</div>
+											</a>
+										</div>
+										<div class="text-blog font-semibold text-[10px] lg:text-[12px] xl:text-[14px] leading-tight">
+											Muôi xinh đẹp xin gửi đến các quý anh hùng thông tin về sự kiện vòng quay may mắn
+											tháng 4, với rất nhiều sự lưa chọn và phần thưởng hấp dẫn
+										</div>
+										<div class="text-right mt-2">
+											<span
+												class="text-center text-white bg-bgDate inline-block w-24 lg:w-32 bg-no-repeat bg-cover lg:py-1 xl:py-1.5 font-bold text-[12px] lg:text-[12px] xl:text-[14px]">10-5-2025</span>
+										</div>
+									</div>
 								</div>
-								<div class="w-[70%]">
-									<div class="leading-none">
-										<a href="#">
-											<div
-												class="inline-block py-1 px-2 bg-bgNameCate bg-contain bg-center bg-no-repeat text-[15px] lg:text-[13px] xl:text-[18px] lg:w-20 xl:w-24 text-center text-white font-bold">
-												Sự Kiện
-											</div>
-										</a>
-										<a href="#">
-											<div class="inline text-[11px] lg:text-[14px] xl:text-[20px] font-bold capitalize">
-												Sự kiện vòng quay may mắn tháng 4 | Kiếm thiên mobile
-											</div>
-										</a>
-									</div>
-									<div class="text-blog font-semibold text-[10px] lg:text-[12px] xl:text-[14px] leading-tight">
-										Muôi xinh đẹp xin gửi đến các quý anh hùng thông tin về sự kiện vòng quay may mắn
-										tháng 4, với rất nhiều sự lưa chọn và phần thưởng hấp dẫn
-									</div>
-									<div class="text-right mt-2">
-										<span
-											class="text-center text-white bg-bgDate inline-block w-24 lg:w-32 bg-no-repeat bg-cover lg:py-1 xl:py-1.5 font-bold text-[12px] lg:text-[12px] xl:text-[14px]">10-5-2025</span>
-									</div>
-								</div>
+								
 							</div>
-							
-						</div>
-						<div class="text-right">
-							<a href="#"
-								class="btn text-center text-white bg-bgRemore inline-block w-32 bg-no-repeat bg-cover py-1.5 font-semibold">
-								Xem thêm
-							</a>
-						</div>
-					</div>
-					<div class="tab-content mt-4 p-2 px-5 hidden" id="tab3">
-						<div class="flex flex-col gap-3 lg:block mb-1 xl:mb-3">
-							<div class="flex gap-2">
-								<div class="w-[30%] lg:w-[40%] xl:w-[30%]">
-									<a href="#"><img class="lg-h2-0 xl:h-28" src="./images/section1/thumbnai.png" alt=""></a>
-								</div>
-								<div class="w-[70%]">
-									<div class="leading-none">
-										<a href="#">
-											<div
-												class="inline-block py-1 px-2 bg-bgNameCate bg-contain bg-center bg-no-repeat text-[15px] lg:text-[13px] xl:text-[18px] lg:w-20 xl:w-24 text-center text-white font-bold">
-												Sự Kiện
-											</div>
-										</a>
-										<a href="#">
-											<div class="inline text-[11px] lg:text-[14px] xl:text-[20px] font-bold capitalize">
-												Sự kiện vòng quay may mắn tháng 4 | Kiếm thiên mobile
-											</div>
-										</a>
+							<div class="flex flex-col gap-3 lg:block mb-1 xl:mb-3">
+								<div class="flex gap-2">
+									<div class="w-[30%] lg:w-[40%] xl:w-[30%]">
+										<a href="#"><img class="lg-h2-0 xl:h-28" src="./images/section1/thumbnai.png" alt=""></a>
 									</div>
-									<div class="text-blog font-semibold text-[10px] lg:text-[12px] xl:text-[14px] leading-tight">
-										Muôi xinh đẹp xin gửi đến các quý anh hùng thông tin về sự kiện vòng quay may mắn
-										tháng 4, với rất nhiều sự lưa chọn và phần thưởng hấp dẫn
-									</div>
-									<div class="text-right mt-2">
-										<span
-											class="text-center text-white bg-bgDate inline-block w-24 lg:w-32 bg-no-repeat bg-cover lg:py-1 xl:py-1.5 font-bold text-[12px] lg:text-[12px] xl:text-[14px]">10-5-2025</span>
+									<div class="w-[70%]">
+										<div class="leading-none">
+											<a href="#">
+												<div
+													class="inline-block py-1 px-2 bg-bgNameCate bg-contain bg-center bg-no-repeat text-[15px] lg:text-[13px] xl:text-[18px] lg:w-20 xl:w-24 text-center text-white font-bold">
+													Sự Kiện
+												</div>
+											</a>
+											<a href="#">
+												<div class="inline text-[11px] lg:text-[14px] xl:text-[20px] font-bold capitalize">
+													Sự kiện vòng quay may mắn tháng 4 | Kiếm thiên mobile
+												</div>
+											</a>
+										</div>
+										<div class="text-blog font-semibold text-[10px] lg:text-[12px] xl:text-[14px] leading-tight">
+											Muôi xinh đẹp xin gửi đến các quý anh hùng thông tin về sự kiện vòng quay may mắn
+											tháng 4, với rất nhiều sự lưa chọn và phần thưởng hấp dẫn
+										</div>
+										<div class="text-right mt-2">
+											<span
+												class="text-center text-white bg-bgDate inline-block w-24 lg:w-32 bg-no-repeat bg-cover lg:py-1 xl:py-1.5 font-bold text-[12px] lg:text-[12px] xl:text-[14px]">10-5-2025</span>
+										</div>
 									</div>
 								</div>
+								
 							</div>
-							
-						</div>
-						<div class="flex flex-col gap-3 lg:block mb-1 xl:mb-3">
-							<div class="flex gap-2">
-								<div class="w-[30%] lg:w-[40%] xl:w-[30%]">
-									<a href="#"><img class="lg-h2-0 xl:h-28" src="./images/section1/thumbnai.png" alt=""></a>
+							<div class="flex flex-col gap-3 lg:block mb-1 xl:mb-3">
+								<div class="flex gap-2">
+									<div class="w-[30%] lg:w-[40%] xl:w-[30%]">
+										<a href="#"><img class="lg-h2-0 xl:h-28" src="./images/section1/thumbnai.png" alt=""></a>
+									</div>
+									<div class="w-[70%]">
+										<div class="leading-none">
+											<a href="#">
+												<div
+													class="inline-block py-1 px-2 bg-bgNameCate bg-contain bg-center bg-no-repeat text-[15px] lg:text-[13px] xl:text-[18px] lg:w-20 xl:w-24 text-center text-white font-bold">
+													Sự Kiện
+												</div>
+											</a>
+											<a href="#">
+												<div class="inline text-[11px] lg:text-[14px] xl:text-[20px] font-bold capitalize">
+													Sự kiện vòng quay may mắn tháng 4 | Kiếm thiên mobile
+												</div>
+											</a>
+										</div>
+										<div class="text-blog font-semibold text-[10px] lg:text-[12px] xl:text-[14px] leading-tight">
+											Muôi xinh đẹp xin gửi đến các quý anh hùng thông tin về sự kiện vòng quay may mắn
+											tháng 4, với rất nhiều sự lưa chọn và phần thưởng hấp dẫn
+										</div>
+										<div class="text-right mt-2">
+											<span
+												class="text-center text-white bg-bgDate inline-block w-24 lg:w-32 bg-no-repeat bg-cover lg:py-1 xl:py-1.5 font-bold text-[12px] lg:text-[12px] xl:text-[14px]">10-5-2025</span>
+										</div>
+									</div>
 								</div>
-								<div class="w-[70%]">
-									<div class="leading-none">
-										<a href="#">
-											<div
-												class="inline-block py-1 px-2 bg-bgNameCate bg-contain bg-center bg-no-repeat text-[15px] lg:text-[13px] xl:text-[18px] lg:w-20 xl:w-24 text-center text-white font-bold">
-												Sự Kiện
-											</div>
-										</a>
-										<a href="#">
-											<div class="inline text-[11px] lg:text-[14px] xl:text-[20px] font-bold capitalize">
-												Sự kiện vòng quay may mắn tháng 4 | Kiếm thiên mobile
-											</div>
-										</a>
-									</div>
-									<div class="text-blog font-semibold text-[10px] lg:text-[12px] xl:text-[14px] leading-tight">
-										Muôi xinh đẹp xin gửi đến các quý anh hùng thông tin về sự kiện vòng quay may mắn
-										tháng 4, với rất nhiều sự lưa chọn và phần thưởng hấp dẫn
-									</div>
-									<div class="text-right mt-2">
-										<span
-											class="text-center text-white bg-bgDate inline-block w-24 lg:w-32 bg-no-repeat bg-cover lg:py-1 xl:py-1.5 font-bold text-[12px] lg:text-[12px] xl:text-[14px]">10-5-2025</span>
-									</div>
-								</div>
+								
 							</div>
-							
-						</div>
-						<div class="flex flex-col gap-3 lg:block mb-1 xl:mb-3">
-							<div class="flex gap-2">
-								<div class="w-[30%] lg:w-[40%] xl:w-[30%]">
-									<a href="#"><img class="lg-h2-0 xl:h-28" src="./images/section1/thumbnai.png" alt=""></a>
+							<div class="flex flex-col gap-3 lg:block mb-1 xl:mb-3">
+								<div class="flex gap-2">
+									<div class="w-[30%] lg:w-[40%] xl:w-[30%]">
+										<a href="#"><img class="lg-h2-0 xl:h-28" src="./images/section1/thumbnai.png" alt=""></a>
+									</div>
+									<div class="w-[70%]">
+										<div class="leading-none">
+											<a href="#">
+												<div
+													class="inline-block py-1 px-2 bg-bgNameCate bg-contain bg-center bg-no-repeat text-[15px] lg:text-[13px] xl:text-[18px] lg:w-20 xl:w-24 text-center text-white font-bold">
+													Sự Kiện
+												</div>
+											</a>
+											<a href="#">
+												<div class="inline text-[11px] lg:text-[14px] xl:text-[20px] font-bold capitalize">
+													Sự kiện vòng quay may mắn tháng 4 | Kiếm thiên mobile
+												</div>
+											</a>
+										</div>
+										<div class="text-blog font-semibold text-[10px] lg:text-[12px] xl:text-[14px] leading-tight">
+											Muôi xinh đẹp xin gửi đến các quý anh hùng thông tin về sự kiện vòng quay may mắn
+											tháng 4, với rất nhiều sự lưa chọn và phần thưởng hấp dẫn
+										</div>
+										<div class="text-right mt-2">
+											<span
+												class="text-center text-white bg-bgDate inline-block w-24 lg:w-32 bg-no-repeat bg-cover lg:py-1 xl:py-1.5 font-bold text-[12px] lg:text-[12px] xl:text-[14px]">10-5-2025</span>
+										</div>
+									</div>
 								</div>
-								<div class="w-[70%]">
-									<div class="leading-none">
-										<a href="#">
-											<div
-												class="inline-block py-1 px-2 bg-bgNameCate bg-contain bg-center bg-no-repeat text-[15px] lg:text-[13px] xl:text-[18px] lg:w-20 xl:w-24 text-center text-white font-bold">
-												Sự Kiện
-											</div>
-										</a>
-										<a href="#">
-											<div class="inline text-[11px] lg:text-[14px] xl:text-[20px] font-bold capitalize">
-												Sự kiện vòng quay may mắn tháng 4 | Kiếm thiên mobile
-											</div>
-										</a>
-									</div>
-									<div class="text-blog font-semibold text-[10px] lg:text-[12px] xl:text-[14px] leading-tight">
-										Muôi xinh đẹp xin gửi đến các quý anh hùng thông tin về sự kiện vòng quay may mắn
-										tháng 4, với rất nhiều sự lưa chọn và phần thưởng hấp dẫn
-									</div>
-									<div class="text-right mt-2">
-										<span
-											class="text-center text-white bg-bgDate inline-block w-24 lg:w-32 bg-no-repeat bg-cover lg:py-1 xl:py-1.5 font-bold text-[12px] lg:text-[12px] xl:text-[14px]">10-5-2025</span>
-									</div>
-								</div>
+								
 							</div>
-							
-						</div>
-						<div class="flex flex-col gap-3 lg:block mb-1 xl:mb-3">
-							<div class="flex gap-2">
-								<div class="w-[30%] lg:w-[40%] xl:w-[30%]">
-									<a href="#"><img class="lg-h2-0 xl:h-28" src="./images/section1/thumbnai.png" alt=""></a>
-								</div>
-								<div class="w-[70%]">
-									<div class="leading-none">
-										<a href="#">
-											<div
-												class="inline-block py-1 px-2 bg-bgNameCate bg-contain bg-center bg-no-repeat text-[15px] lg:text-[13px] xl:text-[18px] lg:w-20 xl:w-24 text-center text-white font-bold">
-												Sự Kiện
-											</div>
-										</a>
-										<a href="#">
-											<div class="inline text-[11px] lg:text-[14px] xl:text-[20px] font-bold capitalize">
-												Sự kiện vòng quay may mắn tháng 4 | Kiếm thiên mobile
-											</div>
-										</a>
-									</div>
-									<div class="text-blog font-semibold text-[10px] lg:text-[12px] xl:text-[14px] leading-tight">
-										Muôi xinh đẹp xin gửi đến các quý anh hùng thông tin về sự kiện vòng quay may mắn
-										tháng 4, với rất nhiều sự lưa chọn và phần thưởng hấp dẫn
-									</div>
-									<div class="text-right mt-2">
-										<span
-											class="text-center text-white bg-bgDate inline-block w-24 lg:w-32 bg-no-repeat bg-cover lg:py-1 xl:py-1.5 font-bold text-[12px] lg:text-[12px] xl:text-[14px]">10-5-2025</span>
-									</div>
-								</div>
+							<div class="text-right ">
+								<a href="#"
+									class="btn text-center text-white bg-bgRemore inline-block w-32 bg-no-repeat bg-cover py-1.5 font-semibold">
+									Xem thêm
+								</a>
 							</div>
-							
 						</div>
-						<div class="flex flex-col gap-3 lg:block mb-1 xl:mb-3">
-							<div class="flex gap-2">
-								<div class="w-[30%] lg:w-[40%] xl:w-[30%]">
-									<a href="#"><img class="lg-h2-0 xl:h-28" src="./images/section1/thumbnai.png" alt=""></a>
+						<div class="tab-content mt-4 p-2 px-5 hidden" id="tab4">
+							<div class="flex flex-col gap-3 lg:block mb-1 xl:mb-3">
+								<div class="flex gap-2">
+									<div class="w-[30%] lg:w-[40%] xl:w-[30%]">
+										<a href="#"><img class="lg-h2-0 xl:h-28" src="./images/section1/thumbnai.png" alt=""></a>
+									</div>
+									<div class="w-[70%]">
+										<div class="leading-none">
+											<a href="#">
+												<div
+													class="inline-block py-1 px-2 bg-bgNameCate bg-contain bg-center bg-no-repeat text-[15px] lg:text-[13px] xl:text-[18px] lg:w-20 xl:w-24 text-center text-white font-bold">
+													Sự Kiện
+												</div>
+											</a>
+											<a href="#">
+												<div class="inline text-[11px] lg:text-[14px] xl:text-[20px] font-bold capitalize">
+													Sự kiện vòng quay may mắn tháng 4 | Kiếm thiên mobile
+												</div>
+											</a>
+										</div>
+										<div class="text-blog font-semibold text-[10px] lg:text-[12px] xl:text-[14px] leading-tight">
+											Muôi xinh đẹp xin gửi đến các quý anh hùng thông tin về sự kiện vòng quay may mắn
+											tháng 4, với rất nhiều sự lưa chọn và phần thưởng hấp dẫn
+										</div>
+										<div class="text-right mt-2">
+											<span
+												class="text-center text-white bg-bgDate inline-block w-24 lg:w-32 bg-no-repeat bg-cover lg:py-1 xl:py-1.5 font-bold text-[12px] lg:text-[12px] xl:text-[14px]">10-5-2025</span>
+										</div>
+									</div>
 								</div>
-								<div class="w-[70%]">
-									<div class="leading-none">
-										<a href="#">
-											<div
-												class="inline-block py-1 px-2 bg-bgNameCate bg-contain bg-center bg-no-repeat text-[15px] lg:text-[13px] xl:text-[18px] lg:w-20 xl:w-24 text-center text-white font-bold">
-												Sự Kiện
-											</div>
-										</a>
-										<a href="#">
-											<div class="inline text-[11px] lg:text-[14px] xl:text-[20px] font-bold capitalize">
-												Sự kiện vòng quay may mắn tháng 4 | Kiếm thiên mobile
-											</div>
-										</a>
-									</div>
-									<div class="text-blog font-semibold text-[10px] lg:text-[12px] xl:text-[14px] leading-tight">
-										Muôi xinh đẹp xin gửi đến các quý anh hùng thông tin về sự kiện vòng quay may mắn
-										tháng 4, với rất nhiều sự lưa chọn và phần thưởng hấp dẫn
-									</div>
-									<div class="text-right mt-2">
-										<span
-											class="text-center text-white bg-bgDate inline-block w-24 lg:w-32 bg-no-repeat bg-cover lg:py-1 xl:py-1.5 font-bold text-[12px] lg:text-[12px] xl:text-[14px]">10-5-2025</span>
-									</div>
-								</div>
+								
 							</div>
-							
-						</div>
-						<div class="text-right ">
-							<a href="#"
-								class="btn text-center text-white bg-bgRemore inline-block w-32 bg-no-repeat bg-cover py-1.5 font-semibold">
-								Xem thêm
-							</a>
-						</div>
-					</div>
-					<div class="tab-content mt-4 p-2 px-5 hidden" id="tab4">
-						<div class="flex flex-col gap-3 lg:block mb-1 xl:mb-3">
-							<div class="flex gap-2">
-								<div class="w-[30%] lg:w-[40%] xl:w-[30%]">
-									<a href="#"><img class="lg-h2-0 xl:h-28" src="./images/section1/thumbnai.png" alt=""></a>
-								</div>
-								<div class="w-[70%]">
-									<div class="leading-none">
-										<a href="#">
-											<div
-												class="inline-block py-1 px-2 bg-bgNameCate bg-contain bg-center bg-no-repeat text-[15px] lg:text-[13px] xl:text-[18px] lg:w-20 xl:w-24 text-center text-white font-bold">
-												Sự Kiện
-											</div>
-										</a>
-										<a href="#">
-											<div class="inline text-[11px] lg:text-[14px] xl:text-[20px] font-bold capitalize">
-												Sự kiện vòng quay may mắn tháng 4 | Kiếm thiên mobile
-											</div>
-										</a>
+							<div class="flex flex-col gap-3 lg:block mb-1 xl:mb-3">
+								<div class="flex gap-2">
+									<div class="w-[30%] lg:w-[40%] xl:w-[30%]">
+										<a href="#"><img class="lg-h2-0 xl:h-28" src="./images/section1/thumbnai.png" alt=""></a>
 									</div>
-									<div class="text-blog font-semibold text-[10px] lg:text-[12px] xl:text-[14px] leading-tight">
-										Muôi xinh đẹp xin gửi đến các quý anh hùng thông tin về sự kiện vòng quay may mắn
-										tháng 4, với rất nhiều sự lưa chọn và phần thưởng hấp dẫn
-									</div>
-									<div class="text-right mt-2">
-										<span
-											class="text-center text-white bg-bgDate inline-block w-24 lg:w-32 bg-no-repeat bg-cover lg:py-1 xl:py-1.5 font-bold text-[12px] lg:text-[12px] xl:text-[14px]">10-5-2025</span>
+									<div class="w-[70%]">
+										<div class="leading-none">
+											<a href="#">
+												<div
+													class="inline-block py-1 px-2 bg-bgNameCate bg-contain bg-center bg-no-repeat text-[15px] lg:text-[13px] xl:text-[18px] lg:w-20 xl:w-24 text-center text-white font-bold">
+													Sự Kiện
+												</div>
+											</a>
+											<a href="#">
+												<div class="inline text-[11px] lg:text-[14px] xl:text-[20px] font-bold capitalize">
+													Sự kiện vòng quay may mắn tháng 4 | Kiếm thiên mobile
+												</div>
+											</a>
+										</div>
+										<div class="text-blog font-semibold text-[10px] lg:text-[12px] xl:text-[14px] leading-tight">
+											Muôi xinh đẹp xin gửi đến các quý anh hùng thông tin về sự kiện vòng quay may mắn
+											tháng 4, với rất nhiều sự lưa chọn và phần thưởng hấp dẫn
+										</div>
+										<div class="text-right mt-2">
+											<span
+												class="text-center text-white bg-bgDate inline-block w-24 lg:w-32 bg-no-repeat bg-cover lg:py-1 xl:py-1.5 font-bold text-[12px] lg:text-[12px] xl:text-[14px]">10-5-2025</span>
+										</div>
 									</div>
 								</div>
+								
 							</div>
-							
-						</div>
-						<div class="flex flex-col gap-3 lg:block mb-1 xl:mb-3">
-							<div class="flex gap-2">
-								<div class="w-[30%] lg:w-[40%] xl:w-[30%]">
-									<a href="#"><img class="lg-h2-0 xl:h-28" src="./images/section1/thumbnai.png" alt=""></a>
+							<div class="flex flex-col gap-3 lg:block mb-1 xl:mb-3">
+								<div class="flex gap-2">
+									<div class="w-[30%] lg:w-[40%] xl:w-[30%]">
+										<a href="#"><img class="lg-h2-0 xl:h-28" src="./images/section1/thumbnai.png" alt=""></a>
+									</div>
+									<div class="w-[70%]">
+										<div class="leading-none">
+											<a href="#">
+												<div
+													class="inline-block py-1 px-2 bg-bgNameCate bg-contain bg-center bg-no-repeat text-[15px] lg:text-[13px] xl:text-[18px] lg:w-20 xl:w-24 text-center text-white font-bold">
+													Sự Kiện
+												</div>
+											</a>
+											<a href="#">
+												<div class="inline text-[11px] lg:text-[14px] xl:text-[20px] font-bold capitalize">
+													Sự kiện vòng quay may mắn tháng 4 | Kiếm thiên mobile
+												</div>
+											</a>
+										</div>
+										<div class="text-blog font-semibold text-[10px] lg:text-[12px] xl:text-[14px] leading-tight">
+											Muôi xinh đẹp xin gửi đến các quý anh hùng thông tin về sự kiện vòng quay may mắn
+											tháng 4, với rất nhiều sự lưa chọn và phần thưởng hấp dẫn
+										</div>
+										<div class="text-right mt-2">
+											<span
+												class="text-center text-white bg-bgDate inline-block w-24 lg:w-32 bg-no-repeat bg-cover lg:py-1 xl:py-1.5 font-bold text-[12px] lg:text-[12px] xl:text-[14px]">10-5-2025</span>
+										</div>
+									</div>
 								</div>
-								<div class="w-[70%]">
-									<div class="leading-none">
-										<a href="#">
-											<div
-												class="inline-block py-1 px-2 bg-bgNameCate bg-contain bg-center bg-no-repeat text-[15px] lg:text-[13px] xl:text-[18px] lg:w-20 xl:w-24 text-center text-white font-bold">
-												Sự Kiện
-											</div>
-										</a>
-										<a href="#">
-											<div class="inline text-[11px] lg:text-[14px] xl:text-[20px] font-bold capitalize">
-												Sự kiện vòng quay may mắn tháng 4 | Kiếm thiên mobile
-											</div>
-										</a>
-									</div>
-									<div class="text-blog font-semibold text-[10px] lg:text-[12px] xl:text-[14px] leading-tight">
-										Muôi xinh đẹp xin gửi đến các quý anh hùng thông tin về sự kiện vòng quay may mắn
-										tháng 4, với rất nhiều sự lưa chọn và phần thưởng hấp dẫn
-									</div>
-									<div class="text-right mt-2">
-										<span
-											class="text-center text-white bg-bgDate inline-block w-24 lg:w-32 bg-no-repeat bg-cover lg:py-1 xl:py-1.5 font-bold text-[12px] lg:text-[12px] xl:text-[14px]">10-5-2025</span>
-									</div>
-								</div>
+								
 							</div>
-							
-						</div>
-						<div class="flex flex-col gap-3 lg:block mb-1 xl:mb-3">
-							<div class="flex gap-2">
-								<div class="w-[30%] lg:w-[40%] xl:w-[30%]">
-									<a href="#"><img class="lg-h2-0 xl:h-28" src="./images/section1/thumbnai.png" alt=""></a>
+							<div class="flex flex-col gap-3 lg:block mb-1 xl:mb-3">
+								<div class="flex gap-2">
+									<div class="w-[30%] lg:w-[40%] xl:w-[30%]">
+										<a href="#"><img class="lg-h2-0 xl:h-28" src="./images/section1/thumbnai.png" alt=""></a>
+									</div>
+									<div class="w-[70%]">
+										<div class="leading-none">
+											<a href="#">
+												<div
+													class="inline-block py-1 px-2 bg-bgNameCate bg-contain bg-center bg-no-repeat text-[15px] lg:text-[13px] xl:text-[18px] lg:w-20 xl:w-24 text-center text-white font-bold">
+													Sự Kiện
+												</div>
+											</a>
+											<a href="#">
+												<div class="inline text-[11px] lg:text-[14px] xl:text-[20px] font-bold capitalize">
+													Sự kiện vòng quay may mắn tháng 4 | Kiếm thiên mobile
+												</div>
+											</a>
+										</div>
+										<div class="text-blog font-semibold text-[10px] lg:text-[12px] xl:text-[14px] leading-tight">
+											Muôi xinh đẹp xin gửi đến các quý anh hùng thông tin về sự kiện vòng quay may mắn
+											tháng 4, với rất nhiều sự lưa chọn và phần thưởng hấp dẫn
+										</div>
+										<div class="text-right mt-2">
+											<span
+												class="text-center text-white bg-bgDate inline-block w-24 lg:w-32 bg-no-repeat bg-cover lg:py-1 xl:py-1.5 font-bold text-[12px] lg:text-[12px] xl:text-[14px]">10-5-2025</span>
+										</div>
+									</div>
 								</div>
-								<div class="w-[70%]">
-									<div class="leading-none">
-										<a href="#">
-											<div
-												class="inline-block py-1 px-2 bg-bgNameCate bg-contain bg-center bg-no-repeat text-[15px] lg:text-[13px] xl:text-[18px] lg:w-20 xl:w-24 text-center text-white font-bold">
-												Sự Kiện
-											</div>
-										</a>
-										<a href="#">
-											<div class="inline text-[11px] lg:text-[14px] xl:text-[20px] font-bold capitalize">
-												Sự kiện vòng quay may mắn tháng 4 | Kiếm thiên mobile
-											</div>
-										</a>
-									</div>
-									<div class="text-blog font-semibold text-[10px] lg:text-[12px] xl:text-[14px] leading-tight">
-										Muôi xinh đẹp xin gửi đến các quý anh hùng thông tin về sự kiện vòng quay may mắn
-										tháng 4, với rất nhiều sự lưa chọn và phần thưởng hấp dẫn
-									</div>
-									<div class="text-right mt-2">
-										<span
-											class="text-center text-white bg-bgDate inline-block w-24 lg:w-32 bg-no-repeat bg-cover lg:py-1 xl:py-1.5 font-bold text-[12px] lg:text-[12px] xl:text-[14px]">10-5-2025</span>
-									</div>
-								</div>
+								
 							</div>
-							
-						</div>
-						<div class="flex flex-col gap-3 lg:block mb-1 xl:mb-3">
-							<div class="flex gap-2">
-								<div class="w-[30%] lg:w-[40%] xl:w-[30%]">
-									<a href="#"><img class="lg-h2-0 xl:h-28" src="./images/section1/thumbnai.png" alt=""></a>
+							<div class="flex flex-col gap-3 lg:block mb-1 xl:mb-3">
+								<div class="flex gap-2">
+									<div class="w-[30%] lg:w-[40%] xl:w-[30%]">
+										<a href="#"><img class="lg-h2-0 xl:h-28" src="./images/section1/thumbnai.png" alt=""></a>
+									</div>
+									<div class="w-[70%]">
+										<div class="leading-none">
+											<a href="#">
+												<div
+													class="inline-block py-1 px-2 bg-bgNameCate bg-contain bg-center bg-no-repeat text-[15px] lg:text-[13px] xl:text-[18px] lg:w-20 xl:w-24 text-center text-white font-bold">
+													Sự Kiện
+												</div>
+											</a>
+											<a href="#">
+												<div class="inline text-[11px] lg:text-[14px] xl:text-[20px] font-bold capitalize">
+													Sự kiện vòng quay may mắn tháng 4 | Kiếm thiên mobile
+												</div>
+											</a>
+										</div>
+										<div class="text-blog font-semibold text-[10px] lg:text-[12px] xl:text-[14px] leading-tight">
+											Muôi xinh đẹp xin gửi đến các quý anh hùng thông tin về sự kiện vòng quay may mắn
+											tháng 4, với rất nhiều sự lưa chọn và phần thưởng hấp dẫn
+										</div>
+										<div class="text-right mt-2">
+											<span
+												class="text-center text-white bg-bgDate inline-block w-24 lg:w-32 bg-no-repeat bg-cover lg:py-1 xl:py-1.5 font-bold text-[12px] lg:text-[12px] xl:text-[14px]">10-5-2025</span>
+										</div>
+									</div>
 								</div>
-								<div class="w-[70%]">
-									<div class="leading-none">
-										<a href="#">
-											<div
-												class="inline-block py-1 px-2 bg-bgNameCate bg-contain bg-center bg-no-repeat text-[15px] lg:text-[13px] xl:text-[18px] lg:w-20 xl:w-24 text-center text-white font-bold">
-												Sự Kiện
-											</div>
-										</a>
-										<a href="#">
-											<div class="inline text-[11px] lg:text-[14px] xl:text-[20px] font-bold capitalize">
-												Sự kiện vòng quay may mắn tháng 4 | Kiếm thiên mobile
-											</div>
-										</a>
-									</div>
-									<div class="text-blog font-semibold text-[10px] lg:text-[12px] xl:text-[14px] leading-tight">
-										Muôi xinh đẹp xin gửi đến các quý anh hùng thông tin về sự kiện vòng quay may mắn
-										tháng 4, với rất nhiều sự lưa chọn và phần thưởng hấp dẫn
-									</div>
-									<div class="text-right mt-2">
-										<span
-											class="text-center text-white bg-bgDate inline-block w-24 lg:w-32 bg-no-repeat bg-cover lg:py-1 xl:py-1.5 font-bold text-[12px] lg:text-[12px] xl:text-[14px]">10-5-2025</span>
-									</div>
-								</div>
+								
 							</div>
-							
-						</div>
-						<div class="flex flex-col gap-3 lg:block mb-1 xl:mb-3">
-							<div class="flex gap-2">
-								<div class="w-[30%] lg:w-[40%] xl:w-[30%]">
-									<a href="#"><img class="lg-h2-0 xl:h-28" src="./images/section1/thumbnai.png" alt=""></a>
-								</div>
-								<div class="w-[70%]">
-									<div class="leading-none">
-										<a href="#">
-											<div
-												class="inline-block py-1 px-2 bg-bgNameCate bg-contain bg-center bg-no-repeat text-[15px] lg:text-[13px] xl:text-[18px] lg:w-20 xl:w-24 text-center text-white font-bold">
-												Sự Kiện
-											</div>
-										</a>
-										<a href="#">
-											<div class="inline text-[11px] lg:text-[14px] xl:text-[20px] font-bold capitalize">
-												Sự kiện vòng quay may mắn tháng 4 | Kiếm thiên mobile
-											</div>
-										</a>
-									</div>
-									<div class="text-blog font-semibold text-[10px] lg:text-[12px] xl:text-[14px] leading-tight">
-										Muôi xinh đẹp xin gửi đến các quý anh hùng thông tin về sự kiện vòng quay may mắn
-										tháng 4, với rất nhiều sự lưa chọn và phần thưởng hấp dẫn
-									</div>
-									<div class="text-right mt-2">
-										<span
-											class="text-center text-white bg-bgDate inline-block w-24 lg:w-32 bg-no-repeat bg-cover lg:py-1 xl:py-1.5 font-bold text-[12px] lg:text-[12px] xl:text-[14px]">10-5-2025</span>
-									</div>
-								</div>
+							<div class="text-right ">
+								<a href="#"
+									class="btn text-center text-white bg-bgRemore inline-block w-32 bg-no-repeat bg-cover py-1.5 font-semibold">
+									Xem thêm
+								</a>
 							</div>
-							
 						</div>
-						<div class="text-right ">
-							<a href="#"
-								class="btn text-center text-white bg-bgRemore inline-block w-32 bg-no-repeat bg-cover py-1.5 font-semibold">
-								Xem thêm
-							</a>
-						</div>
-					</div>
-					<div class="tab-content mt-4 p-2 px-5 hidden" id="tab5">
-						<div class="flex flex-col gap-3 lg:block mb-1 xl:mb-3">
-							<div class="flex gap-2">
-								<div class="w-[30%] lg:w-[40%] xl:w-[30%]">
-									<a href="#"><img class="lg-h2-0 xl:h-28" src="./images/section1/thumbnai.png" alt=""></a>
-								</div>
-								<div class="w-[70%]">
-									<div class="leading-none">
-										<a href="#">
-											<div
-												class="inline-block py-1 px-2 bg-bgNameCate bg-contain bg-center bg-no-repeat text-[15px] lg:text-[13px] xl:text-[18px] lg:w-20 xl:w-24 text-center text-white font-bold">
-												Sự Kiện
-											</div>
-										</a>
-										<a href="#">
-											<div class="inline text-[11px] lg:text-[14px] xl:text-[20px] font-bold capitalize">
-												Sự kiện vòng quay may mắn tháng 4 | Kiếm thiên mobile
-											</div>
-										</a>
+						<div class="tab-content mt-4 p-2 px-5 hidden" id="tab5">
+							<div class="flex flex-col gap-3 lg:block mb-1 xl:mb-3">
+								<div class="flex gap-2">
+									<div class="w-[30%] lg:w-[40%] xl:w-[30%]">
+										<a href="#"><img class="lg-h2-0 xl:h-28" src="./images/section1/thumbnai.png" alt=""></a>
 									</div>
-									<div class="text-blog font-semibold text-[10px] lg:text-[12px] xl:text-[14px] leading-tight">
-										Muôi xinh đẹp xin gửi đến các quý anh hùng thông tin về sự kiện vòng quay may mắn
-										tháng 4, với rất nhiều sự lưa chọn và phần thưởng hấp dẫn
-									</div>
-									<div class="text-right mt-2">
-										<span
-											class="text-center text-white bg-bgDate inline-block w-24 lg:w-32 bg-no-repeat bg-cover lg:py-1 xl:py-1.5 font-bold text-[12px] lg:text-[12px] xl:text-[14px]">10-5-2025</span>
+									<div class="w-[70%]">
+										<div class="leading-none">
+											<a href="#">
+												<div
+													class="inline-block py-1 px-2 bg-bgNameCate bg-contain bg-center bg-no-repeat text-[15px] lg:text-[13px] xl:text-[18px] lg:w-20 xl:w-24 text-center text-white font-bold">
+													Sự Kiện
+												</div>
+											</a>
+											<a href="#">
+												<div class="inline text-[11px] lg:text-[14px] xl:text-[20px] font-bold capitalize">
+													Sự kiện vòng quay may mắn tháng 4 | Kiếm thiên mobile
+												</div>
+											</a>
+										</div>
+										<div class="text-blog font-semibold text-[10px] lg:text-[12px] xl:text-[14px] leading-tight">
+											Muôi xinh đẹp xin gửi đến các quý anh hùng thông tin về sự kiện vòng quay may mắn
+											tháng 4, với rất nhiều sự lưa chọn và phần thưởng hấp dẫn
+										</div>
+										<div class="text-right mt-2">
+											<span
+												class="text-center text-white bg-bgDate inline-block w-24 lg:w-32 bg-no-repeat bg-cover lg:py-1 xl:py-1.5 font-bold text-[12px] lg:text-[12px] xl:text-[14px]">10-5-2025</span>
+										</div>
 									</div>
 								</div>
+								
 							</div>
-							
-						</div>
-						<div class="flex flex-col gap-3 lg:block mb-1 xl:mb-3">
-							<div class="flex gap-2">
-								<div class="w-[30%] lg:w-[40%] xl:w-[30%]">
-									<a href="#"><img class="lg-h2-0 xl:h-28" src="./images/section1/thumbnai.png" alt=""></a>
+							<div class="flex flex-col gap-3 lg:block mb-1 xl:mb-3">
+								<div class="flex gap-2">
+									<div class="w-[30%] lg:w-[40%] xl:w-[30%]">
+										<a href="#"><img class="lg-h2-0 xl:h-28" src="./images/section1/thumbnai.png" alt=""></a>
+									</div>
+									<div class="w-[70%]">
+										<div class="leading-none">
+											<a href="#">
+												<div
+													class="inline-block py-1 px-2 bg-bgNameCate bg-contain bg-center bg-no-repeat text-[15px] lg:text-[13px] xl:text-[18px] lg:w-20 xl:w-24 text-center text-white font-bold">
+													Sự Kiện
+												</div>
+											</a>
+											<a href="#">
+												<div class="inline text-[11px] lg:text-[14px] xl:text-[20px] font-bold capitalize">
+													Sự kiện vòng quay may mắn tháng 4 | Kiếm thiên mobile
+												</div>
+											</a>
+										</div>
+										<div class="text-blog font-semibold text-[10px] lg:text-[12px] xl:text-[14px] leading-tight">
+											Muôi xinh đẹp xin gửi đến các quý anh hùng thông tin về sự kiện vòng quay may mắn
+											tháng 4, với rất nhiều sự lưa chọn và phần thưởng hấp dẫn
+										</div>
+										<div class="text-right mt-2">
+											<span
+												class="text-center text-white bg-bgDate inline-block w-24 lg:w-32 bg-no-repeat bg-cover lg:py-1 xl:py-1.5 font-bold text-[12px] lg:text-[12px] xl:text-[14px]">10-5-2025</span>
+										</div>
+									</div>
 								</div>
-								<div class="w-[70%]">
-									<div class="leading-none">
-										<a href="#">
-											<div
-												class="inline-block py-1 px-2 bg-bgNameCate bg-contain bg-center bg-no-repeat text-[15px] lg:text-[13px] xl:text-[18px] lg:w-20 xl:w-24 text-center text-white font-bold">
-												Sự Kiện
-											</div>
-										</a>
-										<a href="#">
-											<div class="inline text-[11px] lg:text-[14px] xl:text-[20px] font-bold capitalize">
-												Sự kiện vòng quay may mắn tháng 4 | Kiếm thiên mobile
-											</div>
-										</a>
-									</div>
-									<div class="text-blog font-semibold text-[10px] lg:text-[12px] xl:text-[14px] leading-tight">
-										Muôi xinh đẹp xin gửi đến các quý anh hùng thông tin về sự kiện vòng quay may mắn
-										tháng 4, với rất nhiều sự lưa chọn và phần thưởng hấp dẫn
-									</div>
-									<div class="text-right mt-2">
-										<span
-											class="text-center text-white bg-bgDate inline-block w-24 lg:w-32 bg-no-repeat bg-cover lg:py-1 xl:py-1.5 font-bold text-[12px] lg:text-[12px] xl:text-[14px]">10-5-2025</span>
-									</div>
-								</div>
+								
 							</div>
-							
-						</div>
-						<div class="flex flex-col gap-3 lg:block mb-1 xl:mb-3">
-							<div class="flex gap-2">
-								<div class="w-[30%] lg:w-[40%] xl:w-[30%]">
-									<a href="#"><img class="lg-h2-0 xl:h-28" src="./images/section1/thumbnai.png" alt=""></a>
+							<div class="flex flex-col gap-3 lg:block mb-1 xl:mb-3">
+								<div class="flex gap-2">
+									<div class="w-[30%] lg:w-[40%] xl:w-[30%]">
+										<a href="#"><img class="lg-h2-0 xl:h-28" src="./images/section1/thumbnai.png" alt=""></a>
+									</div>
+									<div class="w-[70%]">
+										<div class="leading-none">
+											<a href="#">
+												<div
+													class="inline-block py-1 px-2 bg-bgNameCate bg-contain bg-center bg-no-repeat text-[15px] lg:text-[13px] xl:text-[18px] lg:w-20 xl:w-24 text-center text-white font-bold">
+													Sự Kiện
+												</div>
+											</a>
+											<a href="#">
+												<div class="inline text-[11px] lg:text-[14px] xl:text-[20px] font-bold capitalize">
+													Sự kiện vòng quay may mắn tháng 4 | Kiếm thiên mobile
+												</div>
+											</a>
+										</div>
+										<div class="text-blog font-semibold text-[10px] lg:text-[12px] xl:text-[14px] leading-tight">
+											Muôi xinh đẹp xin gửi đến các quý anh hùng thông tin về sự kiện vòng quay may mắn
+											tháng 4, với rất nhiều sự lưa chọn và phần thưởng hấp dẫn
+										</div>
+										<div class="text-right mt-2">
+											<span
+												class="text-center text-white bg-bgDate inline-block w-24 lg:w-32 bg-no-repeat bg-cover lg:py-1 xl:py-1.5 font-bold text-[12px] lg:text-[12px] xl:text-[14px]">10-5-2025</span>
+										</div>
+									</div>
 								</div>
-								<div class="w-[70%]">
-									<div class="leading-none">
-										<a href="#">
-											<div
-												class="inline-block py-1 px-2 bg-bgNameCate bg-contain bg-center bg-no-repeat text-[15px] lg:text-[13px] xl:text-[18px] lg:w-20 xl:w-24 text-center text-white font-bold">
-												Sự Kiện
-											</div>
-										</a>
-										<a href="#">
-											<div class="inline text-[11px] lg:text-[14px] xl:text-[20px] font-bold capitalize">
-												Sự kiện vòng quay may mắn tháng 4 | Kiếm thiên mobile
-											</div>
-										</a>
-									</div>
-									<div class="text-blog font-semibold text-[10px] lg:text-[12px] xl:text-[14px] leading-tight">
-										Muôi xinh đẹp xin gửi đến các quý anh hùng thông tin về sự kiện vòng quay may mắn
-										tháng 4, với rất nhiều sự lưa chọn và phần thưởng hấp dẫn
-									</div>
-									<div class="text-right mt-2">
-										<span
-											class="text-center text-white bg-bgDate inline-block w-24 lg:w-32 bg-no-repeat bg-cover lg:py-1 xl:py-1.5 font-bold text-[12px] lg:text-[12px] xl:text-[14px]">10-5-2025</span>
-									</div>
-								</div>
+								
 							</div>
-							
-						</div>
-						<div class="flex flex-col gap-3 lg:block mb-1 xl:mb-3">
-							<div class="flex gap-2">
-								<div class="w-[30%] lg:w-[40%] xl:w-[30%]">
-									<a href="#"><img class="lg-h2-0 xl:h-28" src="./images/section1/thumbnai.png" alt=""></a>
+							<div class="flex flex-col gap-3 lg:block mb-1 xl:mb-3">
+								<div class="flex gap-2">
+									<div class="w-[30%] lg:w-[40%] xl:w-[30%]">
+										<a href="#"><img class="lg-h2-0 xl:h-28" src="./images/section1/thumbnai.png" alt=""></a>
+									</div>
+									<div class="w-[70%]">
+										<div class="leading-none">
+											<a href="#">
+												<div
+													class="inline-block py-1 px-2 bg-bgNameCate bg-contain bg-center bg-no-repeat text-[15px] lg:text-[13px] xl:text-[18px] lg:w-20 xl:w-24 text-center text-white font-bold">
+													Sự Kiện
+												</div>
+											</a>
+											<a href="#">
+												<div class="inline text-[11px] lg:text-[14px] xl:text-[20px] font-bold capitalize">
+													Sự kiện vòng quay may mắn tháng 4 | Kiếm thiên mobile
+												</div>
+											</a>
+										</div>
+										<div class="text-blog font-semibold text-[10px] lg:text-[12px] xl:text-[14px] leading-tight">
+											Muôi xinh đẹp xin gửi đến các quý anh hùng thông tin về sự kiện vòng quay may mắn
+											tháng 4, với rất nhiều sự lưa chọn và phần thưởng hấp dẫn
+										</div>
+										<div class="text-right mt-2">
+											<span
+												class="text-center text-white bg-bgDate inline-block w-24 lg:w-32 bg-no-repeat bg-cover lg:py-1 xl:py-1.5 font-bold text-[12px] lg:text-[12px] xl:text-[14px]">10-5-2025</span>
+										</div>
+									</div>
 								</div>
-								<div class="w-[70%]">
-									<div class="leading-none">
-										<a href="#">
-											<div
-												class="inline-block py-1 px-2 bg-bgNameCate bg-contain bg-center bg-no-repeat text-[15px] lg:text-[13px] xl:text-[18px] lg:w-20 xl:w-24 text-center text-white font-bold">
-												Sự Kiện
-											</div>
-										</a>
-										<a href="#">
-											<div class="inline text-[11px] lg:text-[14px] xl:text-[20px] font-bold capitalize">
-												Sự kiện vòng quay may mắn tháng 4 | Kiếm thiên mobile
-											</div>
-										</a>
-									</div>
-									<div class="text-blog font-semibold text-[10px] lg:text-[12px] xl:text-[14px] leading-tight">
-										Muôi xinh đẹp xin gửi đến các quý anh hùng thông tin về sự kiện vòng quay may mắn
-										tháng 4, với rất nhiều sự lưa chọn và phần thưởng hấp dẫn
-									</div>
-									<div class="text-right mt-2">
-										<span
-											class="text-center text-white bg-bgDate inline-block w-24 lg:w-32 bg-no-repeat bg-cover lg:py-1 xl:py-1.5 font-bold text-[12px] lg:text-[12px] xl:text-[14px]">10-5-2025</span>
-									</div>
-								</div>
+								
 							</div>
-							
-						</div>
-						<div class="flex flex-col gap-3 lg:block mb-1 xl:mb-3">
-							<div class="flex gap-2">
-								<div class="w-[30%] lg:w-[40%] xl:w-[30%]">
-									<a href="#"><img class="lg-h2-0 xl:h-28" src="./images/section1/thumbnai.png" alt=""></a>
+							<div class="flex flex-col gap-3 lg:block mb-1 xl:mb-3">
+								<div class="flex gap-2">
+									<div class="w-[30%] lg:w-[40%] xl:w-[30%]">
+										<a href="#"><img class="lg-h2-0 xl:h-28" src="./images/section1/thumbnai.png" alt=""></a>
+									</div>
+									<div class="w-[70%]">
+										<div class="leading-none">
+											<a href="#">
+												<div
+													class="inline-block py-1 px-2 bg-bgNameCate bg-contain bg-center bg-no-repeat text-[15px] lg:text-[13px] xl:text-[18px] lg:w-20 xl:w-24 text-center text-white font-bold">
+													Sự Kiện
+												</div>
+											</a>
+											<a href="#">
+												<div class="inline text-[11px] lg:text-[14px] xl:text-[20px] font-bold capitalize">
+													Sự kiện vòng quay may mắn tháng 4 | Kiếm thiên mobile
+												</div>
+											</a>
+										</div>
+										<div class="text-blog font-semibold text-[10px] lg:text-[12px] xl:text-[14px] leading-tight">
+											Muôi xinh đẹp xin gửi đến các quý anh hùng thông tin về sự kiện vòng quay may mắn
+											tháng 4, với rất nhiều sự lưa chọn và phần thưởng hấp dẫn
+										</div>
+										<div class="text-right mt-2">
+											<span
+												class="text-center text-white bg-bgDate inline-block w-24 lg:w-32 bg-no-repeat bg-cover lg:py-1 xl:py-1.5 font-bold text-[12px] lg:text-[12px] xl:text-[14px]">10-5-2025</span>
+										</div>
+									</div>
 								</div>
-								<div class="w-[70%]">
-									<div class="leading-none">
-										<a href="#">
-											<div
-												class="inline-block py-1 px-2 bg-bgNameCate bg-contain bg-center bg-no-repeat text-[15px] lg:text-[13px] xl:text-[18px] lg:w-20 xl:w-24 text-center text-white font-bold">
-												Sự Kiện
-											</div>
-										</a>
-										<a href="#">
-											<div class="inline text-[11px] lg:text-[14px] xl:text-[20px] font-bold capitalize">
-												Sự kiện vòng quay may mắn tháng 4 | Kiếm thiên mobile
-											</div>
-										</a>
-									</div>
-									<div class="text-blog font-semibold text-[10px] lg:text-[12px] xl:text-[14px] leading-tight">
-										Muôi xinh đẹp xin gửi đến các quý anh hùng thông tin về sự kiện vòng quay may mắn
-										tháng 4, với rất nhiều sự lưa chọn và phần thưởng hấp dẫn
-									</div>
-									<div class="text-right mt-2">
-										<span
-											class="text-center text-white bg-bgDate inline-block w-24 lg:w-32 bg-no-repeat bg-cover lg:py-1 xl:py-1.5 font-bold text-[12px] lg:text-[12px] xl:text-[14px]">10-5-2025</span>
-									</div>
-								</div>
+								
 							</div>
-							
-						</div>
-						<div class="text-right ">
-							<a href="#"
-								class="btn text-center text-white bg-bgRemore inline-block w-32 bg-no-repeat bg-cover py-1.5 font-semibold">
-								Xem thêm
-							</a>
+							<div class="text-right ">
+								<a href="#"
+									class="btn text-center text-white bg-bgRemore inline-block w-32 bg-no-repeat bg-cover py-1.5 font-semibold">
+									Xem thêm
+								</a>
+							</div>
 						</div>
 					</div>
 				</div>
